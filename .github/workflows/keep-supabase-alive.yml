@@ -1,0 +1,42 @@
+# Keeps the free Supabase project from being paused for inactivity.
+#
+# Supabase pauses free projects that get too little database activity over a
+# week. This sends a few tiny, read-only requests (the same kind your website
+# makes when someone visits) once a day, so the project always counts as active.
+#
+# Install: put this file in your repo at  .github/workflows/keep-supabase-alive.yml
+# Test it:  repo -> Actions tab -> "Keep Supabase awake" -> Run workflow
+#
+# The URL and key below are the same public values already in your index.html
+# (the "publishable" key is designed to be public), so no secrets are needed.
+
+name: Keep Supabase awake
+
+on:
+  schedule:
+    - cron: '17 6 * * *'   # every day at 06:17 UTC
+  workflow_dispatch:        # adds a "Run workflow" button in the Actions tab
+
+permissions:
+  contents: read
+
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Query the database
+        env:
+          SUPABASE_URL: https://bkjwzdspuriquurfxcnp.supabase.co
+          SUPABASE_KEY: sb_publishable_8SR8bCmRJAcQtP1eGe6PDA_YDr3AXJ1
+        run: |
+          for table in photos categories site_settings; do
+            code=$(curl -sS --max-time 30 --retry 2 -o /dev/null -w '%{http_code}' \
+              "$SUPABASE_URL/rest/v1/$table?select=*&limit=1" \
+              -H "apikey: $SUPABASE_KEY")
+            echo "$table -> HTTP $code"
+            if [ "$code" != "200" ]; then
+              echo "::error::Supabase did not answer normally for '$table' (HTTP $code). The project may be paused: open the Supabase dashboard and click Restore."
+              exit 1
+            fi
+          done
