@@ -1,8 +1,12 @@
 # Keeps the free Supabase project from being paused for inactivity.
 #
-# Supabase pauses free projects that get too little database activity over a
-# week. This sends a few tiny, read-only requests (the same kind your website
-# makes when someone visits) once a day, so the project always counts as active.
+# JOB 1 - ping: Supabase pauses free projects that get too little database
+#   activity over a week. This sends a few tiny, read-only requests (the same
+#   kind your website makes when someone visits) once a day.
+#
+# JOB 2 - keep-schedule-active: GitHub switches off scheduled workflows in
+#   public repos after 60 days with no activity in the repo. If the last commit
+#   is 45+ days old, this adds one empty commit so that never happens.
 #
 # Install: put this file in your repo at  .github/workflows/keep-supabase-alive.yml
 # Test it:  repo -> Actions tab -> "Keep Supabase awake" -> Run workflow
@@ -40,3 +44,28 @@ jobs:
               exit 1
             fi
           done
+
+  keep-schedule-active:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      contents: write        # only this job may push its one empty commit
+    steps:
+      - name: Check out the repo
+        uses: actions/checkout@v4
+
+      - name: Add an empty commit if the repo has been quiet for 45+ days
+        run: |
+          last=$(git log -1 --format=%ct)
+          now=$(date +%s)
+          days=$(( (now - last) / 86400 ))
+          echo "Last commit was $days day(s) ago."
+          if [ "$days" -ge 45 ]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git commit --allow-empty -m "chore: keep scheduled workflow active"
+            git push
+            echo "Added an empty commit so GitHub keeps the daily schedule switched on."
+          else
+            echo "Nothing to do."
+          fi
