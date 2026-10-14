@@ -1,0 +1,19 @@
+{
+  "id": "src-ph-004", "placeholder": true, "status": "verified",
+  "title": "[Placeholder] Example environmental standards text",
+  "institution": "Example Ministry (placeholder)",
+  "type": "legislation", "subjects": ["law"], "published": "2019-01-01",
+  "keywords": ["standards", "limits"],
+  "summary": "Placeholder record used to test the layout. This is not a real legal text.",
+  "url": "https://example.org/placeholder-law",
+  "findings": [
+    {
+      "id": "f-ph-007", "status": "verified", "kind": "stated",
+      "headline": "[Placeholder] Example provision on reference values",
+      "summary": "Placeholder: the text sets reference values for pollutants.",
+      "quote": "[Placeholder provision text]",
+      "limitations": "Placeholder: a limit in law is not evidence of a measurement.",
+      "locator": "Article X"
+    }
+  ]
+}
