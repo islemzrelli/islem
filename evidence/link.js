@@ -17,13 +17,18 @@
   var photo = '';            // set once intro.jpg is confirmed to exist
 
   /* ---------- optional intro photo ---------- */
-  var probe = new Image();
-  probe.onload = function () {
-    photo = base + 'intro.jpg';
-    var row = document.querySelector('.chap-ev');
-    if (row) decorate(row);
-  };
-  probe.src = base + 'intro.jpg';
+  // Set to true only after you have added evidence/intro.jpg. While it is false nothing is requested,
+  // so the site no longer downloads a 404 page on every visit.
+  var USE_PHOTO = false;
+  if (USE_PHOTO) {
+    var probe = new Image();
+    probe.onload = function () {
+      photo = base + 'intro.jpg';
+      var row = document.querySelector('.chap-ev');
+      if (row) decorate(row);
+    };
+    probe.src = base + 'intro.jpg';
+  }
 
 
   /* ---------- the same circle-wipe the chapters use, then go to the page ---------- */
