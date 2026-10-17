@@ -132,19 +132,18 @@
 
 
   /* ---------- special icon + second-row placement for the landing menu ---------- */
-  // magnifying glass over a photo frame, drawn in amber so it reads as its own project
-  var ICON = '<svg class="nav-ico ev-ico" viewBox="0 0 24 24" aria-hidden="true">' +
-    '<rect x="2.8" y="4" width="14.4" height="11.4" rx="2"/>' +
-    '<path d="M2.8 12.4l3.7-3.5 2.9 2.6 2.3-2 3.5 3.3"/>' +
-    '<circle class="ev-lens" cx="16.2" cy="15.2" r="4.3"/>' +
-    '<path d="M19.4 18.5l2.6 2.7"/></svg>';
+  // ghost-pill style: the label plus a small arrow, signalling that this leaves the gallery
+  var ICON = '<svg class="nav-ico ev-arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17L17 7M8 7h9v9"/></svg>';
   (function () {
     var st = document.createElement('style');
     st.id = 'evNavCss';
     st.textContent =
-      'html body #catNav .cat-evidence .ev-ico{stroke:#e6b25a;filter:drop-shadow(0 0 5px rgba(230,178,90,.35))}' +
-      'html body #catNav .cat-evidence .ev-lens{fill:rgba(230,178,90,.14)}' +
-      'html body #catNav .cat-evidence:hover .ev-ico{stroke:#f3c677}' +
+      // the site forces every .cat-btn border transparent, so the hairline is an inset shadow
+      'html body #catNav .cat-evidence{flex-direction:row-reverse;gap:7px!important;padding:8px 16px!important;border-radius:999px;box-shadow:inset 0 0 0 1px rgba(246,244,239,.28);transition:box-shadow .26s var(--ease),background .26s var(--ease),color .26s var(--ease)}' +
+      'html body #catNav .cat-evidence:hover{background:rgba(246,244,239,.07);box-shadow:inset 0 0 0 1px rgba(246,244,239,.6)}' +
+      'html body #catNav .cat-evidence .ev-arrow{width:13px;height:13px;transition:transform .34s var(--ease-out,var(--ease))}' +
+      'html body #catNav .cat-evidence:hover .ev-arrow{transform:translate(2px,-2px)}' +
+      '@media (prefers-reduced-motion:reduce){html body #catNav .cat-evidence,html body #catNav .cat-evidence .ev-arrow{transition:none}}' +
       '@media (max-width:859px){html body #catNav .cat-evidence{order:9!important;margin-inline-end:100%!important;margin-top:2px}}';
     document.head.appendChild(st);
   })();
@@ -158,7 +157,7 @@
     b.type = 'button';
     b.className = 'cat-btn cat-evidence has-ico';
     b.setAttribute('aria-label', NAME);
-    b.innerHTML = ICON + '<span>' + esc(NAME) + '</span>';
+    b.innerHTML = ICON + '<span>' + esc(NAME) + '</span>';  // row-reverse in CSS puts the arrow after the label
     b.addEventListener('click', function (e) { e.stopPropagation(); if (!go(e, b)) window.location.href = base; });
     nav.insertBefore(b, contact);
   }
