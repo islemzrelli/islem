@@ -1,0 +1,47 @@
+{
+ "id": "src-2025-uranium-thorium",
+ "short_title": "Uranium and thorium in beach sand (2025)",
+ "title": "Spatial Distribution Patterns, Eco-Environmental Risk Assessment, and Human Health Impacts of Uranium and Thorium in Beach Sediments in the Central Gulf of Gabes (Southern Mediterranean Sea)",
+ "authors": "R. El Zrelli et al.",
+ "institution": "Sustainability (MDPI)",
+ "type": "scientific-study",
+ "subjects": [
+  "radioactivity",
+  "sea-sediment"
+ ],
+ "published": "2025",
+ "document_date": null,
+ "year": 2025,
+ "report_number": null,
+ "keywords": [
+  "uranium",
+  "thorium",
+  "beach sediment",
+  "health risk"
+ ],
+ "summary": "Mapped uranium and thorium in beach sand. Uranium ranged from 0.71 to 38.00 mg/kg and thorium from 1.00 to 10.60 mg/kg, highest near the fertilizer factories, with phosphogypsum the likely source.",
+ "url": "https://doi.org/10.3390/su17031283",
+ "pdf": null,
+ "language": "en",
+ "peer_reviewed": true,
+ "doi": "10.3390/su17031283",
+ "status": "draft",
+ "findings": [
+  {
+   "id": "f-2025-a",
+   "source_id": "src-2025-uranium-thorium",
+   "headline": "Uranium in beach sand reached 38 mg/kg, highest near the factories",
+   "summary": "Uranium ranged from 0.71 to 38.00 mg/kg and thorium from 1.00 to 10.60 mg/kg; the central sector near the factories showed the highest levels.",
+   "kind": "stated",
+   "value": "38.00",
+   "unit": "mg/kg (max)",
+   "pollutant": "Uranium",
+   "subjects": null,
+   "keywords": [],
+   "locator": "Abstract",
+   "featured": true,
+   "evidence_level": "measured",
+   "status": "draft"
+  }
+ ]
+}

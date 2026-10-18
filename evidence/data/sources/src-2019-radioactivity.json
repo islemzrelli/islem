@@ -1,0 +1,48 @@
+{
+ "id": "src-2019-radioactivity",
+ "short_title": "Natural radioactivity in phosphate waste (2019)",
+ "title": "Natural radioactivity and radiation hazard assessment of industrial wastes from the coastal phosphate treatment plants of Gabes (Tunisia, Southern Mediterranean Sea)",
+ "authors": "R. El Zrelli et al.",
+ "institution": "Marine Pollution Bulletin (Elsevier)",
+ "type": "scientific-study",
+ "subjects": [
+  "radioactivity",
+  "waste",
+  "cancer-risk"
+ ],
+ "published": "2019",
+ "document_date": null,
+ "year": 2019,
+ "report_number": null,
+ "keywords": [
+  "radioactivity",
+  "radium",
+  "uranium",
+  "radiation hazard"
+ ],
+ "summary": "Measured natural radioactive elements in phosphate rock, phosphogypsum and phosphogypsum foam. The foam was the most radioactive. All calculated hazard indices exceeded recommended safety limits, so workers and neighbours could be significantly exposed.",
+ "url": "https://doi.org/10.1016/j.marpolbul.2019.06.075",
+ "pdf": null,
+ "language": "en",
+ "peer_reviewed": true,
+ "doi": "10.1016/j.marpolbul.2019.06.075",
+ "status": "draft",
+ "findings": [
+  {
+   "id": "f-2019c-a",
+   "source_id": "src-2019-radioactivity",
+   "headline": "All radiation hazard indices exceeded recommended limits",
+   "summary": "In phosphate rock, phosphogypsum and foam, all human health hazard indices exceeded worldwide recommended safety limits, so workers and neighbours may be significantly exposed.",
+   "kind": "stated",
+   "value": null,
+   "unit": null,
+   "pollutant": null,
+   "subjects": null,
+   "keywords": [],
+   "locator": "Abstract",
+   "featured": true,
+   "evidence_level": "risk-estimate",
+   "status": "draft"
+  }
+ ]
+}
