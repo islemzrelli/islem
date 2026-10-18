@@ -1,0 +1,118 @@
+{
+  "id": "src-2026-bentogypsum",
+  "short_title": "'Bentogypsum', a newly studied waste (2026)",
+  "title": "“Bentogypsum”, a phosphoric acid purification residue: Characterization and implications for environmental and human health risk in Gabes (SE Tunisia)",
+  "authors": "R. El Zrelli et al.",
+  "institution": "Journal of Hazardous Materials (Elsevier)",
+  "type": "scientific-study",
+  "subjects": [
+    "waste",
+    "cancer-risk",
+    "children"
+  ],
+  "published": "2026",
+  "document_date": null,
+  "year": 2026,
+  "report_number": null,
+  "keywords": [
+    "bentogypsum",
+    "hazardous waste",
+    "cadmium",
+    "arsenic",
+    "stockpile"
+  ],
+  "summary": "The first full study of a waste stored in open-air stockpiles. It is very acidic and contains high levels of cadmium, arsenic, lead, chromium and uranium. Its pollution scores are above screening limits, and the authors support classifying it as hazardous waste.",
+  "url": "https://doi.org/10.1016/j.jhazmat.2026.141753",
+  "pdf": null,
+  "language": "en",
+  "peer_reviewed": true,
+  "doi": "10.1016/j.jhazmat.2026.141753",
+  "status": "draft",
+  "findings": [
+    {
+      "id": "f-2026-a",
+      "source_id": "src-2026-bentogypsum",
+      "headline": "A new waste called 'bentogypsum' is stored in the open and contains toxic metals",
+      "summary": "The waste has high levels of cadmium, arsenic, lead, chromium and uranium. Its pollution scores are above the screening limits, and the authors support treating it as hazardous industrial waste.",
+      "kind": "stated",
+      "value": null,
+      "unit": null,
+      "pollutant": null,
+      "subjects": null,
+      "keywords": [],
+      "locator": "Abstract",
+      "featured": true,
+      "evidence_level": "measured",
+      "status": "draft",
+      "headline_original": "New waste 'bentogypsum' stockpiled in the open contains toxic metals",
+      "summary_original": "Elevated cadmium, arsenic, lead, chromium and uranium; pollution indices exceed screening thresholds; the authors support classifying it as hazardous industrial waste."
+    },
+    {
+      "id": "f-2026-b",
+      "source_id": "src-2026-bentogypsum",
+      "headline": "Risk estimated as significant for people living near the stockpiles, especially children",
+      "summary": "A screening-level health risk assessment (a first, broad check) estimates significant cancer and non-cancer risks for people living near the bentogypsum stockpiles. Children are the most vulnerable group. This is a risk estimate, not a count of cases.",
+      "intro": "A screening-level health risk assessment (a first, broad check) estimates significant cancer and non-cancer risks for people living near the bentogypsum stockpiles. Children are the most vulnerable group. This is a risk estimate, not a count of cases.",
+      "kind": "stated",
+      "value": null,
+      "unit": null,
+      "pollutant": null,
+      "subjects": [
+        "cancer-risk",
+        "children"
+      ],
+      "keywords": [],
+      "locator": "Abstract",
+      "featured": true,
+      "evidence_level": "risk-estimate",
+      "status": "draft",
+      "headline_original": "Significant cancer and non-cancer risks estimated for people living near the stockpiles; children most vulnerable",
+      "summary_original": "A screening-level health risk assessment indicates significant non-carcinogenic and carcinogenic risks for the population living near the bentogypsum stockpiles, with children the most vulnerable group. This is a risk estimate, not a count of cases."
+    },
+    {
+      "id": "f-2026-c",
+      "source_id": "src-2026-bentogypsum",
+      "headline": "Swallowing is the main way people are exposed, and cadmium adds the most risk",
+      "summary": "The assessment finds that swallowing (oral ingestion) is the main way people are exposed, and that cadmium adds the most to both the cancer and non-cancer risks.",
+      "intro": "The assessment finds that swallowing (oral ingestion) is the main way people are exposed, and that cadmium adds the most to both the cancer and non-cancer risks.",
+      "kind": "stated",
+      "value": null,
+      "unit": null,
+      "pollutant": null,
+      "subjects": [
+        "cancer-risk",
+        "children"
+      ],
+      "keywords": [],
+      "locator": "Abstract",
+      "featured": false,
+      "evidence_level": "risk-estimate",
+      "status": "draft",
+      "headline_original": "Oral ingestion is the main exposure route and cadmium the main contributor to the risk",
+      "summary_original": "Oral ingestion is the dominant exposure pathway in the assessment, and cadmium is the main contributor to both cancer and non-cancer risks."
+    },
+    {
+      "id": "f-2026-d",
+      "source_id": "src-2026-bentogypsum",
+      "headline": "No local medical data yet link the waste to actual health problems",
+      "summary": "The authors say the assessment is limited because there is no local data from medical or population-health studies that directly links the bentogypsum pollution to health or environmental effects actually seen.",
+      "intro": "The authors say the assessment is limited because there is no local data from medical or population-health studies that directly links the bentogypsum pollution to health or environmental effects actually seen.",
+      "kind": "stated",
+      "value": null,
+      "unit": null,
+      "pollutant": null,
+      "subjects": [
+        "cancer-risk",
+        "children"
+      ],
+      "keywords": [],
+      "locator": "Section 3.2.4 (uncertainties and limitations)",
+      "featured": true,
+      "evidence_level": "limitation",
+      "status": "draft",
+      "headline_original": "No site-specific medical or epidemiological data link the waste to observed health outcomes",
+      "summary_original": "The authors state the assessment is limited by the lack of site-specific toxicological and epidemiological data directly linking bentogypsum contamination to observed environmental and health outcomes."
+    }
+  ],
+  "summary_original": "First full study of a waste stored in open-air stockpiles. It is highly acidic and contains elevated cadmium, arsenic, lead, chromium and uranium. Pollution indices exceed screening thresholds, and the authors support classifying it as hazardous waste."
+}

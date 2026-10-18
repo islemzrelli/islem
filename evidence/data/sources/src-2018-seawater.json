@@ -1,0 +1,50 @@
+{
+  "id": "src-2018-seawater",
+  "short_title": "Seawater quality along the central coast (2018)",
+  "title": "Seawater quality assessment and identification of pollution sources along the central coastal area of Gabes Gulf (SE Tunisia): Evidence of industrial impact and implications for marine environment protection",
+  "authors": "R. El Zrelli et al.",
+  "institution": "Marine Pollution Bulletin (Elsevier)",
+  "type": "scientific-study",
+  "subjects": [
+    "sea-sediment",
+    "waste"
+  ],
+  "published": "2018",
+  "document_date": null,
+  "year": 2018,
+  "report_number": null,
+  "keywords": [
+    "seawater",
+    "pollution index",
+    "fluoride",
+    "phosphogypsum"
+  ],
+  "summary": "Tested seawater at 16 stations, plus industrial and household discharge points. The central area, next to the industrial complex, had the most pollution and was more acidic and warmer. Its quality was rated 'strongly to seriously affected'.",
+  "url": "https://doi.org/10.1016/j.marpolbul.2017.12.012",
+  "pdf": null,
+  "language": "en",
+  "peer_reviewed": true,
+  "doi": "10.1016/j.marpolbul.2017.12.012",
+  "status": "draft",
+  "findings": [
+    {
+      "id": "f-2018a-a",
+      "source_id": "src-2018-seawater",
+      "headline": "Seawater near the complex is rated 'strongly to seriously affected'",
+      "summary": "The authors scored water quality with a pollution index. Quality got worse from the northern and southern sites towards the central sites next to the industrial complex.",
+      "kind": "stated",
+      "value": null,
+      "unit": null,
+      "pollutant": null,
+      "subjects": null,
+      "keywords": [],
+      "locator": "Abstract",
+      "featured": false,
+      "evidence_level": "measured",
+      "status": "draft",
+      "headline_original": "Seawater near the complex rated 'strongly to seriously affected'",
+      "summary_original": "Using a Water Pollution Index, quality degraded from the northern and southern stations towards the central ones next to the industrial complex."
+    }
+  ],
+  "summary_original": "Tested seawater at 16 stations plus industrial and domestic discharge points. The central area, next to the industrial complex, had the highest contaminant levels and was more acidic and warmer. Its quality was rated 'strongly to seriously affected'."
+}

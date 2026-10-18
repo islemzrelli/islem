@@ -1,0 +1,50 @@
+{
+  "id": "src-2023-cymodocea",
+  "short_title": "Another seagrass absorbing metals (2023)",
+  "title": "Compartmentation of trace metals in Cymodocea nodosa from a heavily polluted area (Central Gulf of Gabes; Southern Mediterranean Sea): Potential use of the seagrass as environmental monitoring and bioremediation tool",
+  "authors": "R. El Zrelli et al.",
+  "institution": "Regional Studies in Marine Science (Elsevier)",
+  "type": "scientific-study",
+  "subjects": [
+    "sea-sediment",
+    "marine-life"
+  ],
+  "published": "2023",
+  "document_date": null,
+  "year": 2023,
+  "report_number": null,
+  "keywords": [
+    "Cymodocea nodosa",
+    "seagrass",
+    "metals",
+    "bioremediation"
+  ],
+  "summary": "Mud and sand on the seabed were the main source of the metals taken up by this seagrass. It stores some metals in its roots and moves others to its leaves. The authors suggest it could be used to show pollution levels and to help clean up.",
+  "url": "https://doi.org/10.1016/j.rsma.2023.103056",
+  "pdf": null,
+  "language": "en",
+  "peer_reviewed": true,
+  "doi": "10.1016/j.rsma.2023.103056",
+  "status": "draft",
+  "findings": [
+    {
+      "id": "f-2023c-a",
+      "source_id": "src-2023-cymodocea",
+      "headline": "Seabed mud is the main source of the metals seagrass takes in",
+      "summary": "Metals in the seagrass Cymodocea nodosa came mainly from the sediments (mud and sand) on the seabed.",
+      "kind": "stated",
+      "value": null,
+      "unit": null,
+      "pollutant": null,
+      "subjects": null,
+      "keywords": [],
+      "locator": "Abstract",
+      "featured": false,
+      "evidence_level": "measured",
+      "status": "draft",
+      "headline_original": "Sediments are the main source of metals taken up by seagrass",
+      "summary_original": "Seabed sediments were the main source of contaminants bioaccumulated in Cymodocea nodosa."
+    }
+  ],
+  "summary_original": "Seabed sediments were the main source of metals taken up by this seagrass. It stores some metals in roots and moves others to leaves. The authors suggest it could serve as a pollution indicator and a clean-up tool."
+}
