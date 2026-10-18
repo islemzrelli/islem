@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="color-scheme" content="dark">
+<title>The Evidence — Stories from Gabès</title>
+<meta name="description" content="Documented environmental evidence about Gabès: scientific studies, laboratory analyses, audits, official reports and legislation, each traced to its source.">
+<link rel="preload" href="../fonts/newsreader-latin-opsz-italic.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="evidence.css">
+<script src="transition.js"></script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="top">
+  <a class="brand" href="../">Stories from Gabès</a>
+  <a class="back" href="../">← Back to gallery</a>
+</header>
+
+<main id="main" class="ev">
+  <div id="devbanner" class="note" hidden>Development build — this archive currently contains placeholder content that is not real evidence.</div>
+  <div id="status" aria-live="polite"></div>
+
+  <!-- LIST VIEW -->
+  <div id="listView">
+    <section class="intro">
+      <p class="kicker">Stories from Gabès</p>
+      <h1>The Evidence</h1>
+      <p class="lede">The environmental crisis in Gabès is documented in scientific analyses, institutional reports, and legal records. This archive brings those findings together, making the evidence easier to understand and tracing every claim back to its source.</p>
+      <p class="stats" id="stats"></p>
+      <details class="how">
+        <summary>How findings are labeled and what the badges mean</summary>
+        <ul>
+          <li><b>Stated in the source</b> — the document says this explicitly.</li>
+          <li><b>Summary of the source</b> — a faithful paraphrase.</li>
+          <li><b>Calculated from source data</b> — arithmetic on reported values, with inputs and method shown.</li>
+          <li><b>Interpretation</b> — explanation or context added here, not stated by the source.</li>
+        </ul>
+        <p class="how-h">What the badges mean</p>
+        <ul>
+          <li><b>Measured</b> — values measured in samples or observations.</li>
+          <li><b>Authors' estimate</b> — a figure the authors calculated or modelled, such as a total or an economic loss.</li>
+          <li><b>Risk estimate</b> — a calculated possible risk to people. It is not a count of cases.</li>
+          <li><b>Audit rating</b> — how the audit rated an item against a regulation or safeguard. It is not a court ruling.</li>
+          <li><b>Reported by residents</b> — what residents told the auditors. It is not medically confirmed.</li>
+          <li><b>From a press article</b> — what a newspaper article says. It is not independently checked here.</li>
+          <li><b>Stated limitation</b> — a limit the authors themselves state.</li>
+        </ul>
+      </details>
+    </section>
+
+    <div id="app" hidden>
+      <section class="search" aria-label="Search and filters">
+        <label class="vh" for="q">Search the evidence</label>
+        <input id="q" type="search" placeholder="Search a chemical, report, institution, or phrase…" autocomplete="off" spellcheck="false">
+        <div class="filters">
+          <div id="subjects" class="chips" role="group" aria-label="Subject"></div>
+          <details class="morefilters">
+            <summary>More filters</summary>
+            <div class="selects">
+              <label class="vh" for="type">Source type</label>
+              <select id="type"></select>
+              <label class="vh" for="year">Year</label>
+              <select id="year"></select>
+            </div>
+          </details>
+        </div>
+      </section>
+
+      <section class="results" aria-label="Results">
+        <div class="tabs">
+          <button type="button" class="tab" id="tabKey" data-view="key" aria-pressed="true">Key results</button>
+          <button type="button" class="tab" id="tabFindings" data-view="findings" aria-pressed="false">All evidence</button>
+          <button type="button" class="tab" id="tabSources" data-view="sources" aria-pressed="false">Source library</button>
+        </div>
+        <p class="keynote" id="keynote" hidden>The main points in plain words. Open any card to see what it does not show and which sources back it.</p>
+        <p class="count" id="count" role="status"></p>
+        <div id="results"></div>
+      </section>
+    </div>
+  </div>
+
+  <!-- DETAIL VIEW (finding or source) -->
+  <div id="detailView" hidden>
+    <article id="detail"></article>
+  </div>
+</main>
+
+<noscript><p class="note" style="margin:2rem">The Evidence archive needs JavaScript to search and display findings.</p></noscript>
+<script src="evidence.js" defer></script>
+</body>
+</html>
