@@ -1,0 +1,89 @@
+{
+ "id": "src-2016-assabah",
+ "short_title": "Assabah newspaper investigation (2016)",
+ "title": "تحقيقات «الصباح»: أزمة التلوث بقابس.. أمراض بالجملة ومشاكل بالتفصيل",
+ "authors": null,
+ "institution": "Assabah (newspaper)",
+ "type": "press",
+ "subjects": [
+  "breathing-air",
+  "cancer-risk",
+  "waste",
+  "marine-life"
+ ],
+ "published": "2016-11-18",
+ "document_date": "2016-11-18",
+ "year": 2016,
+ "report_number": null,
+ "keywords": [
+  "press",
+  "Gabès",
+  "phosphogypsum",
+  "health",
+  "oasis"
+ ],
+ "summary": "Newspaper report quoting local association leaders and residents on dumping, air pollution and illness. Claims here are statements by interviewees, not measurements. In Arabic.",
+ "url": null,
+ "pdf": null,
+ "language": "ar",
+ "peer_reviewed": false,
+ "doi": null,
+ "status": "draft",
+ "findings": [
+  {
+   "id": "f-assabah-a",
+   "source_id": "src-2016-assabah",
+   "headline": "Claim: 28,720 tonnes of phosphogypsum dumped daily",
+   "summary": "An association president quoted in the article says about 28,720 tonnes of phosphogypsum are dumped in the sea daily, around 400 million tonnes since the complex began. This is an interviewee's figure.",
+   "kind": "summary",
+   "value": "28720",
+   "unit": "t per day (claimed)",
+   "pollutant": null,
+   "subjects": null,
+   "keywords": [],
+   "locator": "Article text",
+   "featured": false,
+   "evidence_level": "press-claim",
+   "status": "draft"
+  },
+  {
+   "id": "f-assabah-b",
+   "source_id": "src-2016-assabah",
+   "headline": "Press article: sulphur gases said to harm people with asthma and chest allergy, even at low levels",
+   "summary": "The article text says sulphur dioxide and similar gases cause serious lung damage, and hurt people with chest allergy and asthma even at low levels. The passage gives no measurement, and the text does not clearly attribute this sentence to a named person.",
+   "intro": "The article text says sulphur dioxide and similar gases cause serious lung damage, and hurt people with chest allergy and asthma even at low levels. The passage gives no measurement, and the text does not clearly attribute this sentence to a named person.",
+   "kind": "summary",
+   "value": null,
+   "unit": null,
+   "pollutant": null,
+   "subjects": [
+    "breathing-air"
+   ],
+   "keywords": [],
+   "locator": "Article text, air pollution section",
+   "featured": false,
+   "evidence_level": "press-claim",
+   "status": "draft"
+  },
+  {
+   "id": "f-assabah-c",
+   "source_id": "src-2016-assabah",
+   "headline": "Press article: fish and cadmium linked to cancer and infertility (claims)",
+   "summary": "The sub-headline says fish with the 'taste' of phosphogypsum cause cancer. The text attributes to an association president that cadmium causes kidney cancer and that catalyst residues taken up through fish cause infertility. These are claims, not established findings.",
+   "intro": "The sub-headline says fish with the 'taste' of phosphogypsum cause cancer. The text attributes to an association president that cadmium causes kidney cancer and that catalyst residues taken up through fish cause infertility. These are claims, not established findings.",
+   "kind": "summary",
+   "value": null,
+   "unit": null,
+   "pollutant": null,
+   "subjects": [
+    "cancer-risk",
+    "marine-life"
+   ],
+   "keywords": [],
+   "locator": "Sub-headline and opening section",
+   "featured": false,
+   "evidence_level": "press-claim",
+   "status": "draft"
+  }
+ ]
+}
