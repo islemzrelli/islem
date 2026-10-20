@@ -1,0 +1,50 @@
+{
+ "id": "src-2017-posidonia-archive",
+ "short_title": "Seagrass as a record of metal pollution over time (2017)",
+ "title": "Biomonitoring of coastal pollution in the Gulf of Gabes (SE, Tunisia): use of Posidonia oceanica seagrass as a bioindicator and its mat as an archive of coastal metallic contamination",
+ "authors": "R. El Zrelli et al.",
+ "institution": "Environmental Science and Pollution Research (Springer)",
+ "type": "scientific-study",
+ "subjects": [
+  "marine-life",
+  "sea-sediment"
+ ],
+ "published": "2017",
+ "document_date": null,
+ "year": 2017,
+ "report_number": null,
+ "keywords": [
+  "Posidonia",
+  "seagrass",
+  "metals",
+  "bioindicator"
+ ],
+ "summary": "Measured cadmium, copper, lead and zinc in seagrass and in the layers of the seagrass mat. Deeper, older layers had less metal, which the authors read as pollution rising over recent decades. Seagrass meadows have shrunk or disappeared in parts of the central Gulf.",
+ "url": "https://doi.org/10.1007/s11356-017-9856-x",
+ "pdf": null,
+ "language": "en",
+ "peer_reviewed": true,
+ "doi": "10.1007/s11356-017-9856-x",
+ "status": "draft",
+ "findings": [
+  {
+   "id": "f-2017-a",
+   "source_id": "src-2017-posidonia-archive",
+   "headline": "Seagrass records show metal pollution rising for decades",
+   "summary": "Seagrass builds up in layers over time. Metal levels were lower in the deep, older layers than in the recent top layers. The authors read this as pollution increasing steadily over recent decades.",
+   "kind": "stated",
+   "value": null,
+   "unit": null,
+   "pollutant": null,
+   "subjects": null,
+   "keywords": [],
+   "locator": "Abstract",
+   "featured": false,
+   "evidence_level": "measured",
+   "status": "draft",
+   "headline_original": "Seagrass layers suggest pollution has risen for decades",
+   "summary_original": "Metal levels fell from shallow (recent) to deep (older) layers of the seagrass mat, which the authors interpret as continuously increasing pollution over recent decades."
+  }
+ ],
+ "summary_original": "Measured cadmium, copper, lead and zinc in seagrass tissue and in the layers of the seagrass mat. Deeper (older) layers had lower metal levels, which the authors read as pollution rising over recent decades. Seagrass meadows have shrunk or disappeared in parts of the central Gulf."
+}

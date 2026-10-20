@@ -1,0 +1,1752 @@
+{
+ "generated": "2026-10-18",
+ "dev": false,
+ "taxonomy": {
+  "subjects": [
+   {
+    "id": "cancer-risk",
+    "label": "Cancer risk",
+    "question": "Do these pollutants raise cancer risk?",
+    "label_fr": "Risque de cancer",
+    "label_ar": "خطر السرطان",
+    "intro": "These sources estimate cancer risk from measured contamination in waste, beach sand and plastic, or report statements about cancer.",
+    "start_here": [
+     "src-2026-bentogypsum",
+     "src-2019-radioactivity",
+     "src-2023-pet-plastics",
+     "src-2016-assabah"
+    ],
+    "group": "health"
+   },
+   {
+    "id": "breathing-air",
+    "label": "Breathing and air",
+    "question": "What are people breathing, and what do residents report?",
+    "label_fr": "Respiration et air",
+    "label_ar": "التنفس والهواء",
+    "intro": "The 2025 audit rates air emissions and residents' reported breathing problems as major non-conformities. A press article adds statements about asthma.",
+    "start_here": [
+     "src-2025-gct-audit",
+     "src-2016-assabah"
+    ],
+    "group": "health"
+   },
+   {
+    "id": "children",
+    "label": "Children's health",
+    "question": "Who is most at risk?",
+    "label_fr": "Santé des enfants",
+    "label_ar": "صحة الأطفال",
+    "intro": "One study in the current files identifies children as the most vulnerable group near the bentogypsum stockpiles.",
+    "start_here": [
+     "src-2026-bentogypsum"
+    ],
+    "group": "health"
+   },
+   {
+    "id": "workers-safety",
+    "label": "Workers and plant safety",
+    "question": "Are workers protected on site?",
+    "label_fr": "Travailleurs et sécurité du site",
+    "label_ar": "العمال وسلامة المنشأة",
+    "intro": "The 2025 audit rates workers' noise exposure, design and maintenance defects, and the lack of a hazard study for ammonium nitrate as major non-conformities.",
+    "start_here": [
+     "src-2025-gct-audit"
+    ],
+    "group": "health"
+   },
+   {
+    "id": "radioactivity",
+    "label": "Radioactivity",
+    "question": "Is there radioactive material, and how much?",
+    "label_fr": "Radioactivité",
+    "label_ar": "النشاط الإشعاعي",
+    "intro": "Phosphate rock and its wastes contain natural radioactive elements. These studies measure them in the wastes, in beach sand and in plastic debris, and estimate the risk to people.",
+    "start_here": [
+     "src-2019-radioactivity",
+     "src-2025-uranium-thorium",
+     "src-2019-foam",
+     "src-2023-pet-plastics"
+    ],
+    "group": "environment"
+   },
+   {
+    "id": "waste",
+    "label": "Phosphogypsum and industrial waste",
+    "question": "What is dumped, and where does it go?",
+    "label_fr": "Phosphogypse et déchets industriels",
+    "label_ar": "الفوسفوجيبس والنفايات الصناعية",
+    "intro": "The fertilizer plants in Gabès produce phosphogypsum and other solid wastes that were discharged into the sea for decades. These sources describe what the wastes contain, how far they travel and what they do to the coast.",
+    "start_here": [
+     "src-2018-phosphate-rock",
+     "src-2019-foam",
+     "src-2019-solid-waste",
+     "src-2024-foam-organic",
+     "src-2026-bentogypsum"
+    ],
+    "group": "environment"
+   },
+   {
+    "id": "sea-sediment",
+    "label": "Sea, sediment and metals",
+    "question": "How polluted are the water and the seabed?",
+    "label_fr": "Mer, sédiments et métaux",
+    "label_ar": "البحر والرواسب والمعادن",
+    "intro": "These studies measured metals in seawater, seabed sediment and seagrass along the central coast of the Gulf of Gabès and traced where they come from.",
+    "start_here": [
+     "src-2015-sediments",
+     "src-2018-seawater",
+     "src-2017-posidonia-archive",
+     "src-2023-cymodocea"
+    ],
+    "group": "environment"
+   },
+   {
+    "id": "marine-life",
+    "label": "Marine life and fishing",
+    "question": "What has been lost under the sea, and what does it cost?",
+    "label_fr": "Vie marine et pêche",
+    "label_ar": "الحياة البحرية والصيد",
+    "intro": "Seagrass meadows once covered much of the Gulf and supported fishing. These sources document their decline and estimate the economic losses.",
+    "start_here": [
+     "src-2023-posidonia-economy",
+     "src-2020-fisheries",
+     "src-2021-rare-earths",
+     "src-2019-solid-waste"
+    ],
+    "group": "environment"
+   },
+   {
+    "id": "oversight",
+    "label": "Permits, monitoring and consultation",
+    "question": "Is the site authorised, monitored and answerable to residents?",
+    "label_fr": "Autorisations, suivi et concertation",
+    "label_ar": "التراخيص والمتابعة والتشاور",
+    "intro": "The audit records no proof of operating authorisations, no hazard study for ammonium nitrate, no air-emission measurement campaign since March 2010 and no formal way for residents to be consulted.",
+    "start_here": [
+     "src-2025-gct-audit"
+    ],
+    "group": "accountability"
+   }
+  ],
+  "types": [
+   {
+    "id": "scientific-study",
+    "label": "Peer-reviewed study"
+   },
+   {
+    "id": "audit",
+    "label": "Institutional audit"
+   },
+   {
+    "id": "press",
+    "label": "Press investigation"
+   }
+  ],
+  "evidence_levels": [
+   {
+    "id": "measured",
+    "label": "Measured",
+    "definition": "Values measured in samples or observations."
+   },
+   {
+    "id": "estimate",
+    "label": "Authors' estimate",
+    "definition": "A figure the authors calculated or modelled, such as a total or an economic loss."
+   },
+   {
+    "id": "risk-estimate",
+    "label": "Risk estimate",
+    "definition": "A calculated possible risk to people."
+   },
+   {
+    "id": "audit-rating",
+    "label": "Audit rating",
+    "definition": "How the audit rated an item against a regulation or safeguard."
+   },
+   {
+    "id": "reported-by-residents",
+    "label": "Reported by residents",
+    "definition": "What residents told the auditors."
+   },
+   {
+    "id": "press-claim",
+    "label": "From a press article",
+    "definition": "What a newspaper article says."
+   },
+   {
+    "id": "limitation",
+    "label": "Stated limitation",
+    "definition": "A limit the authors themselves state."
+   }
+  ]
+ },
+ "sources": [
+  {
+   "id": "src-2015-sediments",
+   "short_title": "Heavy metals in the seabed near the industrial complex (2015)",
+   "title": "Heavy metal contamination and ecological risk assessment in the surface sediments of the coastal area surrounding the industrial complex of Gabes city, Gulf of Gabes, SE Tunisia",
+   "authors": "R. El Zrelli et al.",
+   "institution": "Marine Pollution Bulletin (Elsevier)",
+   "type": "scientific-study",
+   "subjects": [
+    "sea-sediment",
+    "waste"
+   ],
+   "published": "2015",
+   "document_date": null,
+   "year": 2015,
+   "report_number": null,
+   "keywords": [
+    "sediment",
+    "heavy metals",
+    "cadmium",
+    "zinc"
+   ],
+   "summary": "Measured six metals (mercury, cadmium, copper, lead, chromium and zinc) in seabed mud along the central coast. The cadmium and zinc appear to come mainly from phosphogypsum. The risk to sea life is highest in the zone between the two harbours.",
+   "url": "https://doi.org/10.1016/j.marpolbul.2015.10.047",
+   "pdf": null,
+   "language": "en",
+   "peer_reviewed": true,
+   "doi": "10.1016/j.marpolbul.2015.10.047",
+   "summary_original": "Measured six metals (Hg, Cd, Cu, Pb, Cr, Zn) in seabed sediments along the central coast. Cadmium and zinc appear to come mainly from phosphogypsum. Ecological risk is highest in the zone between the two harbours."
+  },
+  {
+   "id": "src-2017-posidonia-archive",
+   "short_title": "Seagrass as a record of metal pollution over time (2017)",
+   "title": "Biomonitoring of coastal pollution in the Gulf of Gabes (SE, Tunisia): use of Posidonia oceanica seagrass as a bioindicator and its mat as an archive of coastal metallic contamination",
+   "authors": "R. El Zrelli et al.",
+   "institution": "Environmental Science and Pollution Research (Springer)",
+   "type": "scientific-study",
+   "subjects": [
+    "marine-life",
+    "sea-sediment"
+   ],
+   "published": "2017",
+   "document_date": null,
+   "year": 2017,
+   "report_number": null,
+   "keywords": [
+    "Posidonia",
+    "seagrass",
+    "metals",
+    "bioindicator"
+   ],
+   "summary": "Measured cadmium, copper, lead and zinc in seagrass and in the layers of the seagrass mat. Deeper, older layers had less metal, which the authors read as pollution rising over recent decades. Seagrass meadows have shrunk or disappeared in parts of the central Gulf.",
+   "url": "https://doi.org/10.1007/s11356-017-9856-x",
+   "pdf": null,
+   "language": "en",
+   "peer_reviewed": true,
+   "doi": "10.1007/s11356-017-9856-x",
+   "summary_original": "Measured cadmium, copper, lead and zinc in seagrass tissue and in the layers of the seagrass mat. Deeper (older) layers had lower metal levels, which the authors read as pollution rising over recent decades. Seagrass meadows have shrunk or disappeared in parts of the central Gulf."
+  },
+  {
+   "id": "src-2018-seawater",
+   "short_title": "Seawater quality along the central coast (2018)",
+   "title": "Seawater quality assessment and identification of pollution sources along the central coastal area of Gabes Gulf (SE Tunisia): Evidence of industrial impact and implications for marine environment protection",
+   "authors": "R. El Zrelli et al.",
+   "institution": "Marine Pollution Bulletin (Elsevier)",
+   "type": "scientific-study",
+   "subjects": [
+    "sea-sediment",
+    "waste"
+   ],
+   "published": "2018",
+   "document_date": null,
+   "year": 2018,
+   "report_number": null,
+   "keywords": [
+    "seawater",
+    "pollution index",
+    "fluoride",
+    "phosphogypsum"
+   ],
+   "summary": "Tested seawater at 16 stations, plus industrial and household discharge points. The central area, next to the industrial complex, had the most pollution and was more acidic and warmer. Its quality was rated 'strongly to seriously affected'.",
+   "url": "https://doi.org/10.1016/j.marpolbul.2017.12.012",
+   "pdf": null,
+   "language": "en",
+   "peer_reviewed": true,
+   "doi": "10.1016/j.marpolbul.2017.12.012",
+   "summary_original": "Tested seawater at 16 stations plus industrial and domestic discharge points. The central area, next to the industrial complex, had the highest contaminant levels and was more acidic and warmer. Its quality was rated 'strongly to seriously affected'."
+  },
+  {
+   "id": "src-2018-phosphate-rock",
+   "short_title": "What phosphate rock and phosphogypsum contain (2018)",
+   "title": "Characterization of phosphate rock and phosphogypsum from Gabes phosphate fertilizer factories (SE Tunisia): high mining potential and implications for environmental protection",
+   "authors": "R. El Zrelli et al.",
+   "institution": "Environmental Science and Pollution Research (Springer)",
+   "type": "scientific-study",
+   "subjects": [
+    "waste"
+   ],
+   "published": "2018",
+   "document_date": null,
+   "year": 2018,
+   "report_number": null,
+   "keywords": [
+    "phosphogypsum",
+    "phosphate rock",
+    "trace elements",
+    "fluoride"
+   ],
+   "summary": "Analysed what phosphate rock and phosphogypsum are made of. Both carry a lot of trace elements. The authors estimate how much pollution flows to the sea each year and argue the waste could be processed again and reused instead of dumped.",
+   "url": "https://doi.org/10.1007/s11356-018-1648-4",
+   "pdf": null,
+   "language": "en",
+   "peer_reviewed": true,
+   "doi": "10.1007/s11356-018-1648-4",
+   "summary_original": "Analysed the chemistry and minerals of phosphate rock and phosphogypsum. Both carry high loads of trace elements. The authors estimate yearly flows of contaminants to the sea and argue the waste could be reprocessed instead of dumped."
+  },
+  {
+   "id": "src-2019-foam",
+   "short_title": "How phosphogypsum foam carries pollutants (2019)",
+   "title": "Characterization of the role of phosphogypsum foam in the transport of metals and radionuclides in the Southern Mediterranean Sea",
+   "authors": "R. El Zrelli et al.",
+   "institution": "Journal of Hazardous Materials (Elsevier)",
+   "type": "scientific-study",
+   "subjects": [
+    "waste",
+    "radioactivity",
+    "sea-sediment"
+   ],
+   "published": "2019",
+   "document_date": null,
+   "year": 2019,
+   "report_number": null,
+   "keywords": [
+    "phosphogypsum foam",
+    "radionuclides",
+    "metals",
+    "transport"
+   ],
+   "summary": "The first chemical study of the foam that forms when phosphogypsum is dumped in seawater. The foam is heavily loaded with radioactive pollutants and is described as the main thing that collects, carries and spreads them.",
+   "url": "https://doi.org/10.1016/j.jhazmat.2018.09.083",
+   "pdf": null,
+   "language": "en",
+   "peer_reviewed": true,
+   "doi": "10.1016/j.jhazmat.2018.09.083",
+   "summary_original": "First chemical and mineral study of the foam that forms when phosphogypsum is dumped in seawater. The foam is heavily loaded with radioactive contaminants and is described as the main agent that accumulates, carries and spreads them."
+  },
+  {
+   "id": "src-2019-solid-waste",
+   "short_title": "Decades of solid waste on the coast (2019)",
+   "title": "Decadal effects of solid industrial wastes on the coastal environment: Gulf of Gabes (Tunisia, Southern Mediterranean Sea) as an example",
+   "authors": "R. El Zrelli et al.",
+   "institution": "Estuarine, Coastal and Shelf Science (Elsevier)",
+   "type": "scientific-study",
+   "subjects": [
+    "waste",
+    "marine-life"
+   ],
+   "published": "2019",
+   "document_date": null,
+   "year": 2019,
+   "report_number": null,
+   "keywords": [
+    "solid waste",
+    "coast",
+    "Posidonia",
+    "shoreline"
+   ],
+   "summary": "Identified the kinds of solid waste reaching the shore and mapped how far they travel (about 10 km south of the discharge point). Over decades they are linked to the local loss of seagrass, a lifeless area of seabed between the two ports, and a changed shoreline.",
+   "url": "https://doi.org/10.1016/j.ecss.2019.04.021",
+   "pdf": null,
+   "language": "en",
+   "peer_reviewed": true,
+   "doi": "10.1016/j.ecss.2019.04.021",
+   "summary_original": "Identified the types of solid waste reaching the shore and mapped how far they travel (about 10 km south of the discharge point). Over decades they are linked to local loss of seagrass, a lifeless seabed zone between the two ports, and a changed shoreline."
+  },
+  {
+   "id": "src-2019-radioactivity",
+   "short_title": "Natural radioactivity in phosphate waste (2019)",
+   "title": "Natural radioactivity and radiation hazard assessment of industrial wastes from the coastal phosphate treatment plants of Gabes (Tunisia, Southern Mediterranean Sea)",
+   "authors": "R. El Zrelli et al.",
+   "institution": "Marine Pollution Bulletin (Elsevier)",
+   "type": "scientific-study",
+   "subjects": [
+    "radioactivity",
+    "waste",
+    "cancer-risk"
+   ],
+   "published": "2019",
+   "document_date": null,
+   "year": 2019,
+   "report_number": null,
+   "keywords": [
+    "radioactivity",
+    "radium",
+    "uranium",
+    "radiation hazard"
+   ],
+   "summary": "Measured natural radioactive elements in phosphate rock, phosphogypsum and foam. The foam was the most radioactive. All the calculated hazard indices were above recommended safety limits, so workers and neighbours could be significantly exposed.",
+   "url": "https://doi.org/10.1016/j.marpolbul.2019.06.075",
+   "pdf": null,
+   "language": "en",
+   "peer_reviewed": true,
+   "doi": "10.1016/j.marpolbul.2019.06.075",
+   "summary_original": "Measured natural radioactive elements in phosphate rock, phosphogypsum and phosphogypsum foam. The foam was the most radioactive. All calculated hazard indices exceeded recommended safety limits, so workers and neighbours could be significantly exposed."
+  },
+  {
+   "id": "src-2020-fisheries",
+   "short_title": "Seagrass decline and the cost to fishing (2020)",
+   "title": "Economic impact of human-induced shrinkage of Posidonia oceanica meadows on coastal fisheries in the Gabes Gulf (Tunisia, Southern Mediterranean Sea)",
+   "authors": "R. El Zrelli et al.",
+   "institution": "Marine Pollution Bulletin (Elsevier)",
+   "type": "scientific-study",
+   "subjects": [
+    "marine-life"
+   ],
+   "published": "2020",
+   "document_date": null,
+   "year": 2020,
+   "report_number": null,
+   "keywords": [
+    "fisheries",
+    "Posidonia",
+    "economic loss",
+    "landings"
+   ],
+   "summary": "Links the fall in coastal fish catches to the loss of seagrass, which sped up after phosphogypsum dumping began in the mid-1970s. Estimates the fishing loss at about 60 million euros in 2014 and over 750 million euros in total from 1990 to 2014.",
+   "url": "https://doi.org/10.1016/j.marpolbul.2020.111124",
+   "pdf": null,
+   "language": "en",
+   "peer_reviewed": true,
+   "doi": "10.1016/j.marpolbul.2020.111124",
+   "summary_original": "Links the fall in coastal fish catches to the loss of seagrass, which accelerated after phosphogypsum releases began in the mid-1970s. Estimates the fishing loss at about 60 million euros in 2014 and over 750 million euros cumulated from 1990 to 2014."
+  },
+  {
+   "id": "src-2021-rare-earths",
+   "short_title": "Rare earth elements in the waste (2021)",
+   "title": "Rare earth elements characterization associated to the phosphate fertilizer plants of Gabes (Tunisia, Central Mediterranean Sea): Geochemical properties and behavior, related economic losses, and potential hazards",
+   "authors": "R. El Zrelli et al.",
+   "institution": "Science of the Total Environment (Elsevier)",
+   "type": "scientific-study",
+   "subjects": [
+    "waste",
+    "marine-life"
+   ],
+   "published": "2021",
+   "document_date": null,
+   "year": 2021,
+   "report_number": null,
+   "keywords": [
+    "rare earth elements",
+    "phosphogypsum foam",
+    "economic loss",
+    "mining potential"
+   ],
+   "summary": "Measured 16 rare earth elements in phosphate rock, phosphogypsum and foam. The foam had the most. Estimates that up to 1,523.67 tonnes of these elements reach the sea each year, a wasted resource worth about 58 million US dollars a year.",
+   "url": "https://doi.org/10.1016/j.scitotenv.2021.148268",
+   "pdf": null,
+   "language": "en",
+   "peer_reviewed": true,
+   "doi": "10.1016/j.scitotenv.2021.148268",
+   "summary_original": "Measured 16 rare earth elements in phosphate rock, phosphogypsum and foam. Foam was the most enriched. Estimates up to 1,523.67 tonnes of these elements reach the sea each year, a resource loss valued at about 58 million US dollars per year."
+  },
+  {
+   "id": "src-2023-pet-plastics",
+   "short_title": "Plastic bottles carrying radioactive elements (2023)",
+   "title": "PET plastics as a Trojan horse for radionuclides",
+   "authors": "R. El Zrelli et al.",
+   "institution": "Journal of Hazardous Materials (Elsevier)",
+   "type": "scientific-study",
+   "subjects": [
+    "radioactivity",
+    "waste",
+    "cancer-risk"
+   ],
+   "published": "2023",
+   "document_date": null,
+   "year": 2023,
+   "report_number": null,
+   "keywords": [
+    "PET",
+    "microplastics",
+    "radionuclides",
+    "health risk"
+   ],
+   "summary": "Tested plastic bottles collected where the phosphate plant discharges to the coast. They carried natural and man-made radioactive elements, so plastic can carry radioactivity. The calculated health indices were below international safety limits.",
+   "url": "https://doi.org/10.1016/j.jhazmat.2022.129886",
+   "pdf": null,
+   "language": "en",
+   "peer_reviewed": true,
+   "doi": "10.1016/j.jhazmat.2022.129886",
+   "summary_original": "Tested plastic bottles collected where the phosphate plant discharges to the coast. They carried natural and artificial radioactive elements, so plastic can act as a carrier. The calculated health indices were below international safety limits."
+  },
+  {
+   "id": "src-2023-posidonia-economy",
+   "short_title": "Economic value lost with the seagrass (2023)",
+   "title": "Economic losses related to the reduction of Posidonia ecosystem services in the Gulf of Gabes (Southern Mediterranean Sea)",
+   "authors": "R. El Zrelli et al.",
+   "institution": "Marine Pollution Bulletin (Elsevier)",
+   "type": "scientific-study",
+   "subjects": [
+    "marine-life"
+   ],
+   "published": "2023",
+   "document_date": null,
+   "year": 2023,
+   "report_number": null,
+   "keywords": [
+    "Posidonia",
+    "ecosystem services",
+    "carbon storage",
+    "economic loss"
+   ],
+   "summary": "Reports that about 90% of the original seagrass area has been lost since the 1970s. Estimates the value lost in 2014 at 105 million euros (fishing and carbon storage), about 115% of the added value of the fertiliser factories that year.",
+   "url": "https://doi.org/10.1016/j.marpolbul.2022.114418",
+   "pdf": null,
+   "language": "en",
+   "peer_reviewed": true,
+   "doi": "10.1016/j.marpolbul.2022.114418",
+   "summary_original": "Reports a loss of about 90% of the original seagrass area since the 1970s. Estimates the value lost in 2014 at 105 million euros (fishing and carbon storage), about 115% of the added value of the fertilizer factories that year."
+  },
+  {
+   "id": "src-2023-cymodocea",
+   "short_title": "Another seagrass absorbing metals (2023)",
+   "title": "Compartmentation of trace metals in Cymodocea nodosa from a heavily polluted area (Central Gulf of Gabes; Southern Mediterranean Sea): Potential use of the seagrass as environmental monitoring and bioremediation tool",
+   "authors": "R. El Zrelli et al.",
+   "institution": "Regional Studies in Marine Science (Elsevier)",
+   "type": "scientific-study",
+   "subjects": [
+    "sea-sediment",
+    "marine-life"
+   ],
+   "published": "2023",
+   "document_date": null,
+   "year": 2023,
+   "report_number": null,
+   "keywords": [
+    "Cymodocea nodosa",
+    "seagrass",
+    "metals",
+    "bioremediation"
+   ],
+   "summary": "Mud and sand on the seabed were the main source of the metals taken up by this seagrass. It stores some metals in its roots and moves others to its leaves. The authors suggest it could be used to show pollution levels and to help clean up.",
+   "url": "https://doi.org/10.1016/j.rsma.2023.103056",
+   "pdf": null,
+   "language": "en",
+   "peer_reviewed": true,
+   "doi": "10.1016/j.rsma.2023.103056",
+   "summary_original": "Seabed sediments were the main source of metals taken up by this seagrass. It stores some metals in roots and moves others to leaves. The authors suggest it could serve as a pollution indicator and a clean-up tool."
+  },
+  {
+   "id": "src-2024-foam-organic",
+   "short_title": "Why the foam forms and why it is so polluted (2024)",
+   "title": "Unveiling the organic nature of phosphogypsum foam: Insights into formation dynamics, pollution load, and contribution to marine pollution in the Southern Mediterranean Sea",
+   "authors": "R. El Zrelli et al.",
+   "institution": "Journal of Hazardous Materials (Elsevier)",
+   "type": "scientific-study",
+   "subjects": [
+    "waste",
+    "sea-sediment"
+   ],
+   "published": "2024",
+   "document_date": null,
+   "year": 2024,
+   "report_number": null,
+   "keywords": [
+    "phosphogypsum foam",
+    "surfactant",
+    "organic matter",
+    "dispersion"
+   ],
+   "summary": "Shows the foam is man-made and short-lived, held together by organic compounds and gypsum crystals. Those compounds explain why it holds so much pollution, and the foam carries and spreads phosphogypsum pollution in the sea.",
+   "url": "https://doi.org/10.1016/j.jhazmat.2024.135732",
+   "pdf": null,
+   "language": "en",
+   "peer_reviewed": true,
+   "doi": "10.1016/j.jhazmat.2024.135732",
+   "summary_original": "Shows the foam is an artificial, short-lived foam stabilised by organic compounds and gypsum crystals. Those compounds explain its high contaminant load, and the foam carries and spreads phosphogypsum contaminants in the sea."
+  },
+  {
+   "id": "src-2025-uranium-thorium",
+   "short_title": "Uranium and thorium in beach sand (2025)",
+   "title": "Spatial Distribution Patterns, Eco-Environmental Risk Assessment, and Human Health Impacts of Uranium and Thorium in Beach Sediments in the Central Gulf of Gabes (Southern Mediterranean Sea)",
+   "authors": "R. El Zrelli et al.",
+   "institution": "Sustainability (MDPI)",
+   "type": "scientific-study",
+   "subjects": [
+    "radioactivity",
+    "sea-sediment"
+   ],
+   "published": "2025",
+   "document_date": null,
+   "year": 2025,
+   "report_number": null,
+   "keywords": [
+    "uranium",
+    "thorium",
+    "beach sediment",
+    "health risk"
+   ],
+   "summary": "Mapped uranium and thorium in beach sand. Uranium ranged from 0.71 to 38.00 mg/kg and thorium from 1.00 to 10.60 mg/kg, highest near the fertiliser factories. Phosphogypsum is the likely source.",
+   "url": "https://doi.org/10.3390/su17031283",
+   "pdf": null,
+   "language": "en",
+   "peer_reviewed": true,
+   "doi": "10.3390/su17031283",
+   "summary_original": "Mapped uranium and thorium in beach sand. Uranium ranged from 0.71 to 38.00 mg/kg and thorium from 1.00 to 10.60 mg/kg, highest near the fertilizer factories, with phosphogypsum the likely source."
+  },
+  {
+   "id": "src-2026-bentogypsum",
+   "short_title": "'Bentogypsum', a newly studied waste (2026)",
+   "title": "“Bentogypsum”, a phosphoric acid purification residue: Characterization and implications for environmental and human health risk in Gabes (SE Tunisia)",
+   "authors": "R. El Zrelli et al.",
+   "institution": "Journal of Hazardous Materials (Elsevier)",
+   "type": "scientific-study",
+   "subjects": [
+    "waste",
+    "cancer-risk",
+    "children"
+   ],
+   "published": "2026",
+   "document_date": null,
+   "year": 2026,
+   "report_number": null,
+   "keywords": [
+    "bentogypsum",
+    "hazardous waste",
+    "cadmium",
+    "arsenic",
+    "stockpile"
+   ],
+   "summary": "The first full study of a waste stored in open-air stockpiles. It is very acidic and contains high levels of cadmium, arsenic, lead, chromium and uranium. Its pollution scores are above screening limits, and the authors support classifying it as hazardous waste.",
+   "url": "https://doi.org/10.1016/j.jhazmat.2026.141753",
+   "pdf": null,
+   "language": "en",
+   "peer_reviewed": true,
+   "doi": "10.1016/j.jhazmat.2026.141753",
+   "summary_original": "First full study of a waste stored in open-air stockpiles. It is highly acidic and contains elevated cadmium, arsenic, lead, chromium and uranium. Pollution indices exceed screening thresholds, and the authors support classifying it as hazardous waste."
+  },
+  {
+   "id": "src-2025-gct-audit",
+   "short_title": "Environmental and social audit of the chemical complex (2025)",
+   "title": "Audit environnemental et social des sites du Groupe Chimique Tunisien – Site de Gabès (rapport définitif)",
+   "authors": [
+    "I2E / IHE consortium"
+   ],
+   "institution": "Groupement I2E / IHE, for Groupe Chimique Tunisien",
+   "type": "audit",
+   "subjects": [
+    "breathing-air",
+    "waste",
+    "sea-sediment",
+    "marine-life",
+    "workers-safety",
+    "oversight"
+   ],
+   "published": "2025-07",
+   "document_date": "2025-07-24",
+   "year": 2025,
+   "report_number": "P-TN-BB0-010",
+   "keywords": [
+    "audit",
+    "major non-conformity",
+    "air emissions",
+    "discharges",
+    "workers",
+    "oversight"
+   ],
+   "summary": "A 160-page audit of the Gabès site against Tunisian rules and the African Development Bank's safeguards, prepared by consultants for the Groupe Chimique Tunisien. This archive lists only the 17 items the audit rates 'Non-conformité majeure' (major non-conformity, a serious failure to meet the rules): 10 cite a Tunisian law or standard and 7 cite only the bank's safeguards. In French.",
+   "url": null,
+   "pdf": null,
+   "language": "fr",
+   "peer_reviewed": false,
+   "doi": null,
+   "key_pages": [
+    {
+     "page": 5,
+     "label": "Major non-conformities start (water discharges)"
+    },
+    {
+     "page": 7,
+     "label": "Air emissions"
+    },
+    {
+     "page": 12,
+     "label": "Residents' health and nuisance"
+    },
+    {
+     "page": 13,
+     "label": "Consultation, permits, hazard study"
+    }
+   ],
+   "summary_original": "160-page audit of the Gabès site against Tunisian regulations and the African Development Bank safeguards, prepared by consultants for the Groupe Chimique Tunisien. This archive lists only the 17 items the audit rates 'Non-conformité majeure': 10 cite a Tunisian law or standard and 7 cite only the bank's safeguards. In French."
+  },
+  {
+   "id": "src-2016-assabah",
+   "short_title": "Assabah newspaper investigation (2016)",
+   "title": "تحقيقات «الصباح»: أزمة التلوث بقابس.. أمراض بالجملة ومشاكل بالتفصيل",
+   "authors": null,
+   "institution": "Assabah (newspaper)",
+   "type": "press",
+   "subjects": [
+    "breathing-air",
+    "cancer-risk",
+    "waste",
+    "marine-life"
+   ],
+   "published": "2016-11-18",
+   "document_date": "2016-11-18",
+   "year": 2016,
+   "report_number": null,
+   "keywords": [
+    "press",
+    "Gabès",
+    "phosphogypsum",
+    "health",
+    "oasis"
+   ],
+   "summary": "Newspaper report quoting local association leaders and residents on dumping, air pollution and illness. In Arabic.",
+   "url": null,
+   "pdf": null,
+   "language": "ar",
+   "peer_reviewed": false,
+   "doi": null
+  }
+ ],
+ "findings": [
+  {
+   "id": "f-2015-a",
+   "source_id": "src-2015-sediments",
+   "headline": "Cadmium and zinc in the seabed come mainly from phosphogypsum",
+   "summary": "Tests on seabed mud showed that cadmium and zinc come mainly from phosphogypsum, a waste from the Tunisian Chemical Group's fertiliser plants.",
+   "kind": "stated",
+   "value": null,
+   "unit": null,
+   "pollutant": "Cd, Zn",
+   "subjects": null,
+   "keywords": [],
+   "locator": "Abstract",
+   "featured": false,
+   "evidence_level": "measured",
+   "headline_original": "Cadmium and zinc in seabed sediment trace back to phosphogypsum",
+   "summary_original": "Correlation analysis indicated that cadmium and zinc derive mainly from the phosphogypsum of the Tunisian Chemical Group."
+  },
+  {
+   "id": "f-2015-b",
+   "source_id": "src-2015-sediments",
+   "headline": "The most polluted seabed is between the two harbours",
+   "summary": "Metals were found in the seabed south of the chemical complex. The risk to sea life from this pollution was highest in the area between the two harbours.",
+   "kind": "stated",
+   "value": null,
+   "unit": null,
+   "pollutant": null,
+   "subjects": null,
+   "keywords": [],
+   "locator": "Abstract",
+   "featured": false,
+   "evidence_level": "measured",
+   "headline_original": "Highest ecological risk lies between the two harbours",
+   "summary_original": "Metal contamination was found south of the chemical complex, and ecological risk of surface sediments was highest in the inter-harbour zone."
+  },
+  {
+   "id": "f-2017-a",
+   "source_id": "src-2017-posidonia-archive",
+   "headline": "Seagrass records show metal pollution rising for decades",
+   "summary": "Seagrass builds up in layers over time. Metal levels were lower in the deep, older layers than in the recent top layers. The authors read this as pollution increasing steadily over recent decades.",
+   "kind": "stated",
+   "value": null,
+   "unit": null,
+   "pollutant": null,
+   "subjects": null,
+   "keywords": [],
+   "locator": "Abstract",
+   "featured": false,
+   "evidence_level": "measured",
+   "headline_original": "Seagrass layers suggest pollution has risen for decades",
+   "summary_original": "Metal levels fell from shallow (recent) to deep (older) layers of the seagrass mat, which the authors interpret as continuously increasing pollution over recent decades."
+  },
+  {
+   "id": "f-2018a-a",
+   "source_id": "src-2018-seawater",
+   "headline": "Seawater near the complex is rated 'strongly to seriously affected'",
+   "summary": "The authors scored water quality with a pollution index. Quality got worse from the northern and southern sites towards the central sites next to the industrial complex.",
+   "kind": "stated",
+   "value": null,
+   "unit": null,
+   "pollutant": null,
+   "subjects": null,
+   "keywords": [],
+   "locator": "Abstract",
+   "featured": false,
+   "evidence_level": "measured",
+   "headline_original": "Seawater near the complex rated 'strongly to seriously affected'",
+   "summary_original": "Using a Water Pollution Index, quality degraded from the northern and southern stations towards the central ones next to the industrial complex."
+  },
+  {
+   "id": "f-2018b-a",
+   "source_id": "src-2018-phosphate-rock",
+   "headline": "Pollution flowing into the sea each year is estimated for each substance",
+   "summary": "The authors estimate how much of each pollutant from phosphogypsum reaches the sea every year. The amounts range from 0.05 tonnes (rhenium) to 87,249.60 tonnes (fluoride).",
+   "kind": "stated",
+   "value": "87249.60",
+   "unit": "t per year",
+   "pollutant": "Fluoride",
+   "subjects": null,
+   "keywords": [],
+   "locator": "Abstract",
+   "featured": false,
+   "evidence_level": "estimate",
+   "headline_original": "Yearly contaminant flows to the sea are estimated per substance",
+   "summary_original": "Estimated annual flows of phosphogypsum contaminants into the marine environment range from 0.05 t (rhenium) to 87,249.60 t (fluoride)."
+  },
+  {
+   "id": "f-2019a-a",
+   "source_id": "src-2019-foam",
+   "headline": "Foam from the waste carries most of the radioactive pollution",
+   "summary": "When phosphogypsum is dumped in the sea it makes foam. This foam is heavily loaded with radioactive pollutants. The authors describe it as the main thing that collects, carries and spreads them.",
+   "kind": "stated",
+   "value": null,
+   "unit": null,
+   "pollutant": null,
+   "subjects": null,
+   "keywords": [],
+   "locator": "Abstract",
+   "featured": false,
+   "evidence_level": "measured",
+   "headline_original": "Foam is the main carrier of radioactive contaminants",
+   "summary_original": "Phosphogypsum foams are heavily loaded with radiochemical contaminants and are described as the main accumulating, transporting and dispersing agent for them."
+  },
+  {
+   "id": "f-2019b-a",
+   "source_id": "src-2019-solid-waste",
+   "headline": "Decades of dumping are linked to a lifeless patch of seabed",
+   "summary": "Decades of solid waste are linked to the local disappearance of seagrass, a lifeless area of seabed between the Gabès and Ghannouche ports, and a shoreline that has moved outwards.",
+   "kind": "stated",
+   "value": null,
+   "unit": null,
+   "pollutant": null,
+   "subjects": null,
+   "keywords": [],
+   "locator": "Abstract",
+   "featured": false,
+   "headline_original": "Waste dumping is linked to a lifeless seabed zone",
+   "summary_original": "Decades of solid effluents are linked to local disappearance of seagrass, a lifeless seabed zone between the Gabès and Ghannouche ports, and shoreline advancement."
+  },
+  {
+   "id": "f-2019c-a",
+   "source_id": "src-2019-radioactivity",
+   "headline": "Radiation levels in the waste were above recommended limits",
+   "summary": "In phosphate rock, phosphogypsum and foam, every calculated radiation hazard index was above the worldwide recommended safety limit. The authors say workers and neighbours may be significantly exposed.",
+   "kind": "stated",
+   "value": null,
+   "unit": null,
+   "pollutant": null,
+   "subjects": null,
+   "keywords": [],
+   "locator": "Abstract",
+   "featured": true,
+   "evidence_level": "risk-estimate",
+   "headline_original": "All radiation hazard indices exceeded recommended limits",
+   "summary_original": "In phosphate rock, phosphogypsum and foam, all human health hazard indices exceeded worldwide recommended safety limits, so workers and neighbours may be significantly exposed."
+  },
+  {
+   "id": "f-2020-a",
+   "source_id": "src-2020-fisheries",
+   "headline": "Fishing losses estimated at over 750 million euros (1990–2014)",
+   "summary": "The authors estimate coastal fishing lost about 60 million euros in 2014, and more than 750 million euros in total from 1990 to 2014. Fish catches fell as the seagrass declined.",
+   "kind": "stated",
+   "value": "750",
+   "unit": "million € (cumulated)",
+   "pollutant": null,
+   "subjects": null,
+   "keywords": [],
+   "locator": "Abstract",
+   "featured": false,
+   "evidence_level": "estimate",
+   "headline_original": "Fishing losses estimated above 750 million euros (1990–2014)",
+   "summary_original": "Coastal fishing loss estimated at about 60 million euros in 2014, with cumulated 1990–2014 loss exceeding 750 million euros; catch decline correlated with seagrass decline."
+  },
+  {
+   "id": "f-2021-a",
+   "source_id": "src-2021-rare-earths",
+   "headline": "Up to 1,523.67 tonnes of rare earth metals reach the sea each year",
+   "summary": "This is the estimated yearly amount of rare earth elements going from the fertiliser factories into the sea. The authors value this loss at about 58 million US dollars a year.",
+   "kind": "stated",
+   "value": "1523.67",
+   "unit": "t per year",
+   "pollutant": null,
+   "subjects": null,
+   "keywords": [],
+   "locator": "Abstract",
+   "featured": false,
+   "evidence_level": "estimate",
+   "headline_original": "Up to 1,523.67 tonnes of rare earths reach the sea each year",
+   "summary_original": "Estimated annual flow of rare earth elements from the fertilizer factories to the marine environment; related economic loss estimated at about 58 million US dollars per year."
+  },
+  {
+   "id": "f-2023a-a",
+   "source_id": "src-2023-pet-plastics",
+   "headline": "Plastic bottles carried radioactivity, but health risk stayed within safety limits",
+   "summary": "Plastic bottles littered on the coast carried radioactive elements (average 5.30 Bq/kg). All the calculated health indices, including the extra lifetime cancer risk, were below international safety limits. The authors note that plastic can carry radioactivity.",
+   "kind": "stated",
+   "value": "5.30",
+   "unit": "Bq/kg (mean)",
+   "pollutant": null,
+   "subjects": [
+    "radioactivity",
+    "cancer-risk"
+   ],
+   "keywords": [],
+   "locator": "Abstract",
+   "featured": false,
+   "evidence_level": "risk-estimate",
+   "headline_original": "Plastic bottles carried radioactivity; calculated dose and cancer-risk indices were within safety limits",
+   "summary_original": "Littered PET bottles carried radionuclides (mean 5.30 Bq/kg). All calculated health indices, including excess lifetime cancer risk, were below international safety limits, but plastic can act as a carrier."
+  },
+  {
+   "id": "f-2023b-a",
+   "source_id": "src-2023-posidonia-economy",
+   "headline": "About 90% of the original seagrass has been lost",
+   "summary": "More than 500 million tonnes of wet phosphogypsum have been discharged since the 1970s. The authors link this to the loss of about 90% of the original seagrass area.",
+   "kind": "stated",
+   "value": "90",
+   "unit": "% lost",
+   "pollutant": null,
+   "subjects": null,
+   "keywords": [],
+   "locator": "Abstract",
+   "featured": true,
+   "evidence_level": "estimate",
+   "headline_original": "About 90% of the original seagrass area is gone",
+   "summary_original": "More than 500 million tonnes of wet phosphogypsum discharged since the 1970s are linked to the loss of about 90% of the initial seagrass surface."
+  },
+  {
+   "id": "f-2023b-b",
+   "source_id": "src-2023-posidonia-economy",
+   "headline": "The 2014 losses equal about 115% of what the factories added in value",
+   "summary": "The authors estimate the economic loss in 2014 at 105 million euros. That is about 115% of the added value of the Gabès fertiliser factories that year.",
+   "kind": "stated",
+   "value": "105",
+   "unit": "million € (2014)",
+   "pollutant": null,
+   "subjects": null,
+   "keywords": [],
+   "locator": "Abstract",
+   "featured": false,
+   "evidence_level": "estimate",
+   "headline_original": "Value lost in 2014 equals about 115% of the factories' added value",
+   "summary_original": "Economic losses estimated at 105 million euros in 2014, around 115% of the added value of the Gabès fertilizer factories for the same year."
+  },
+  {
+   "id": "f-2023c-a",
+   "source_id": "src-2023-cymodocea",
+   "headline": "Seabed mud is the main source of the metals seagrass takes in",
+   "summary": "Metals in the seagrass Cymodocea nodosa came mainly from the sediments (mud and sand) on the seabed.",
+   "kind": "stated",
+   "value": null,
+   "unit": null,
+   "pollutant": null,
+   "subjects": null,
+   "keywords": [],
+   "locator": "Abstract",
+   "featured": false,
+   "evidence_level": "measured",
+   "headline_original": "Sediments are the main source of metals taken up by seagrass",
+   "summary_original": "Seabed sediments were the main source of contaminants bioaccumulated in Cymodocea nodosa."
+  },
+  {
+   "id": "f-2024-a",
+   "source_id": "src-2024-foam-organic",
+   "headline": "The foam is man-made, short-lived and held together by organic compounds",
+   "summary": "The authors describe the foam as unnatural and short-lived, held together by soap-like organic compounds. These compounds explain why it holds so much pollution.",
+   "kind": "stated",
+   "value": null,
+   "unit": null,
+   "pollutant": null,
+   "subjects": null,
+   "keywords": [],
+   "locator": "Abstract",
+   "featured": false,
+   "evidence_level": "measured",
+   "headline_original": "Foam is artificial, short-lived and stabilised by organic compounds",
+   "summary_original": "The foam is described as an unnatural, surfactant-stabilised, ephemeral aqueous foam whose organic nature explains its high contaminant load."
+  },
+  {
+   "id": "f-2025-a",
+   "source_id": "src-2025-uranium-thorium",
+   "headline": "Uranium in beach sand reached 38 mg/kg, highest near the factories",
+   "summary": "Uranium in the sand ranged from 0.71 to 38.00 mg/kg, and thorium from 1.00 to 10.60 mg/kg. The highest levels were in the central area near the factories.",
+   "kind": "stated",
+   "value": "38.00",
+   "unit": "mg/kg (max)",
+   "pollutant": "Uranium",
+   "subjects": null,
+   "keywords": [],
+   "locator": "Abstract",
+   "featured": true,
+   "evidence_level": "measured",
+   "headline_original": "Uranium in beach sand reached 38 mg/kg, highest near the factories",
+   "summary_original": "Uranium ranged from 0.71 to 38.00 mg/kg and thorium from 1.00 to 10.60 mg/kg; the central sector near the factories showed the highest levels."
+  },
+  {
+   "id": "f-2026-a",
+   "source_id": "src-2026-bentogypsum",
+   "headline": "A new waste called 'bentogypsum' is stored in the open and contains toxic metals",
+   "summary": "The waste has high levels of cadmium, arsenic, lead, chromium and uranium. Its pollution scores are above the screening limits, and the authors support treating it as hazardous industrial waste.",
+   "kind": "stated",
+   "value": null,
+   "unit": null,
+   "pollutant": null,
+   "subjects": null,
+   "keywords": [],
+   "locator": "Abstract",
+   "featured": true,
+   "evidence_level": "measured",
+   "headline_original": "New waste 'bentogypsum' stockpiled in the open contains toxic metals",
+   "summary_original": "Elevated cadmium, arsenic, lead, chromium and uranium; pollution indices exceed screening thresholds; the authors support classifying it as hazardous industrial waste."
+  },
+  {
+   "id": "f-assabah-a",
+   "source_id": "src-2016-assabah",
+   "headline": "Press article: 28,720 tonnes of phosphogypsum dumped daily",
+   "summary": "An association president quoted in the article says about 28,720 tonnes of phosphogypsum are dumped in the sea each day, and around 400 million tonnes since the complex began.",
+   "kind": "summary",
+   "value": "28720",
+   "unit": "t per day",
+   "pollutant": null,
+   "subjects": null,
+   "keywords": [],
+   "locator": "Article text",
+   "featured": false,
+   "evidence_level": "press-claim",
+   "headline_original": "Press article: 28,720 tonnes of phosphogypsum dumped daily",
+   "summary_original": "An association president quoted in the article says about 28,720 tonnes of phosphogypsum are dumped in the sea daily, around 400 million tonnes since the complex began. This is an interviewee's figure."
+  },
+  {
+   "id": "f-audit-01",
+   "source_id": "src-2025-gct-audit",
+   "headline": "Water discharges above limits, with no monitoring procedure",
+   "summary": "The audit found that waste water leaving the site is above the limits for temperature, pH, fluoride and phosphorus, and that there is no procedure for operating or monitoring it. It rates this a major non-conformity (the audit's term for a serious failure to meet the rules).",
+   "intro": "The audit checks the Gabès site against Tunisian rules and the safeguards of the African Development Bank. For waste water it lists amounts above the limits for temperature, pH, fluoride and phosphorus, and it found no procedure to control or monitor them. It rates this a major non-conformity.",
+   "kind": "stated",
+   "value": null,
+   "unit": null,
+   "pollutant": null,
+   "subjects": [
+    "waste",
+    "sea-sediment"
+   ],
+   "keywords": [
+    "effluents",
+    "fluoride",
+    "phosphorus",
+    "pH",
+    "discharge"
+   ],
+   "locator": "Summary table, p. 5",
+   "featured": false,
+   "evidence_level": "audit-rating",
+   "headline_original": "Water discharges: audit lists norm exceedances for temperature, pH, fluoride and phosphorus, with no monitoring procedure",
+   "summary_original": "The audit rates discharge of effluents above norms for temperature, pH, fluoride and phosphorus as a major non-conformity, and notes that no operating or monitoring procedure is available.",
+   "intro_original": "The audit checks the Gabès site against Tunisian standards and the African Development Bank safeguards. For water discharges it lists exceedances of norms for temperature, pH, fluoride and phosphorus and finds no procedure to control or monitor them. It rates this a major non-conformity."
+  },
+  {
+   "id": "f-audit-02",
+   "source_id": "src-2025-gct-audit",
+   "headline": "Untreated waste water may harm sea life",
+   "summary": "The audit says untreated discharges may affect sea life along the coast. It rates this a major non-conformity and asks for a specific study of the effect on the environment.",
+   "intro": "The African Development Bank has a safeguard for protecting nature (called SO6). Under it, the audit looks at how the site's discharges affect the sea. It says untreated discharges may harm sea life along the coast and rates this a major non-conformity.",
+   "kind": "stated",
+   "value": null,
+   "unit": null,
+   "pollutant": null,
+   "subjects": [
+    "marine-life"
+   ],
+   "keywords": [
+    "marine biodiversity",
+    "untreated discharge",
+    "gypsum water"
+   ],
+   "locator": "Summary table, p. 6",
+   "featured": false,
+   "evidence_level": "audit-rating",
+   "headline_original": "Marine ecosystems: untreated discharges may affect marine biodiversity",
+   "summary_original": "The audit rates the impact of untreated discharges on coastal marine biodiversity as a major non-conformity and calls for a specific ecological assessment.",
+   "intro_original": "Under the bank's biodiversity safeguard (SO6), the audit looks at the effect of the site's discharges on the sea. It states that untreated discharges may affect marine biodiversity along the coast and rates this a major non-conformity."
+  },
+  {
+   "id": "f-audit-03",
+   "source_id": "src-2025-gct-audit",
+   "headline": "Air: ammonia from the DAP units is a major non-conformity",
+   "summary": "The audit rates ammonia from the DAP (fertiliser) units a major non-conformity when checked against Tunisia's 2010 air decree and the bank's pollution-prevention safeguards.",
+   "intro": "The audit checks air pollution at the Gabès site against Tunisia's 2010 air decree (Décret n° 2010-2519 of 28 September 2010) and two of the bank's safeguards (SO1 and SO3). It records pollution from ammonia (DAP units) and rates it a major non-conformity.",
+   "kind": "stated",
+   "value": null,
+   "unit": null,
+   "pollutant": null,
+   "subjects": [
+    "breathing-air"
+   ],
+   "keywords": [
+    "air emissions",
+    "ammonia (DAP units)"
+   ],
+   "locator": "Summary table, p. 7",
+   "featured": false,
+   "evidence_level": "audit-rating",
+   "headline_original": "Air: ammonia from the DAP units rated a major non-conformity",
+   "summary_original": "The audit rates ammonia (DAP units) as a major non-conformity against the 2010 decree on air and the bank's pollution-prevention safeguards.",
+   "intro_original": "The audit checks air emissions at the Gabès site against Décret n° 2010-2519 of 28 September 2010 and the bank's safeguards SO1 and SO3. It records pollution from ammonia (DAP units) and rates it a major non-conformity. The row states the finding but gives no measured value."
+  },
+  {
+   "id": "f-audit-04",
+   "source_id": "src-2025-gct-audit",
+   "headline": "Air: nitrogen oxides from the nitric acid units are a major non-conformity",
+   "summary": "The audit rates nitrogen oxides from the nitric acid units a major non-conformity when checked against Tunisia's 2010 air decree and the bank's pollution-prevention safeguards.",
+   "intro": "The audit checks air pollution at the Gabès site against Tunisia's 2010 air decree (Décret n° 2010-2519 of 28 September 2010) and two of the bank's safeguards (SO1 and SO3). It records pollution from nitrogen oxides (nitric acid units) and rates it a major non-conformity.",
+   "kind": "stated",
+   "value": null,
+   "unit": null,
+   "pollutant": null,
+   "subjects": [
+    "breathing-air"
+   ],
+   "keywords": [
+    "air emissions",
+    "nitrogen oxides (nitric acid units)"
+   ],
+   "locator": "Summary table, p. 7",
+   "featured": false,
+   "evidence_level": "audit-rating",
+   "headline_original": "Air: nitrogen oxides from the nitric acid units rated a major non-conformity",
+   "summary_original": "The audit rates nitrogen oxides (nitric acid units) as a major non-conformity against the 2010 decree on air and the bank's pollution-prevention safeguards.",
+   "intro_original": "The audit checks air emissions at the Gabès site against Décret n° 2010-2519 of 28 September 2010 and the bank's safeguards SO1 and SO3. It records pollution from nitrogen oxides (nitric acid units) and rates it a major non-conformity. The row states the finding but gives no measured value."
+  },
+  {
+   "id": "f-audit-05",
+   "source_id": "src-2025-gct-audit",
+   "headline": "Air: ammonia and ammonium nitrate droplets are a major non-conformity",
+   "summary": "The audit rates ammonia and ammonium nitrate droplets from the prilling towers (where fertiliser is made into pellets) a major non-conformity when checked against Tunisia's 2010 air decree and the bank's pollution-prevention safeguards.",
+   "intro": "The audit checks air pollution at the Gabès site against Tunisia's 2010 air decree (Décret n° 2010-2519 of 28 September 2010) and two of the bank's safeguards (SO1 and SO3). It records pollution from ammonia and ammonium nitrate droplets (prilling towers) and rates it a major non-conformity.",
+   "kind": "stated",
+   "value": null,
+   "unit": null,
+   "pollutant": null,
+   "subjects": [
+    "breathing-air"
+   ],
+   "keywords": [
+    "air emissions",
+    "ammonia and ammonium nitrate droplets (prilling towers)"
+   ],
+   "locator": "Summary table, p. 7",
+   "featured": false,
+   "evidence_level": "audit-rating",
+   "headline_original": "Air: ammonia and ammonium nitrate droplets from the prilling towers rated a major non-conformity",
+   "summary_original": "The audit rates ammonia and ammonium nitrate droplets (prilling towers) as a major non-conformity against the 2010 decree on air and the bank's pollution-prevention safeguards.",
+   "intro_original": "The audit checks air emissions at the Gabès site against Décret n° 2010-2519 of 28 September 2010 and the bank's safeguards SO1 and SO3. It records pollution from ammonia and ammonium nitrate droplets (prilling towers) and rates it a major non-conformity. The row states the finding but gives no measured value."
+  },
+  {
+   "id": "f-audit-06",
+   "source_id": "src-2025-gct-audit",
+   "headline": "Air: sulphur oxides from the sulphuric acid units are a major non-conformity",
+   "summary": "The audit rates sulphur oxides from the sulphuric acid units a major non-conformity when checked against Tunisia's 2010 air decree and the bank's pollution-prevention safeguards.",
+   "intro": "The audit checks air pollution at the Gabès site against Tunisia's 2010 air decree (Décret n° 2010-2519 of 28 September 2010) and two of the bank's safeguards (SO1 and SO3). It records pollution from sulphur oxides (sulphuric acid units) and rates it a major non-conformity.",
+   "kind": "stated",
+   "value": null,
+   "unit": null,
+   "pollutant": null,
+   "subjects": [
+    "breathing-air"
+   ],
+   "keywords": [
+    "air emissions",
+    "sulphur oxides (sulphuric acid units)"
+   ],
+   "locator": "Summary table, p. 7",
+   "featured": false,
+   "evidence_level": "audit-rating",
+   "headline_original": "Air: sulphur oxides from the sulphuric acid units rated a major non-conformity",
+   "summary_original": "The audit rates sulphur oxides (sulphuric acid units) as a major non-conformity against the 2010 decree on air and the bank's pollution-prevention safeguards.",
+   "intro_original": "The audit checks air emissions at the Gabès site against Décret n° 2010-2519 of 28 September 2010 and the bank's safeguards SO1 and SO3. It records pollution from sulphur oxides (sulphuric acid units) and rates it a major non-conformity. The row states the finding but gives no measured value."
+  },
+  {
+   "id": "f-audit-07",
+   "source_id": "src-2025-gct-audit",
+   "headline": "Air: smelly gases from the phosphoric acid units are a major non-conformity",
+   "summary": "The audit rates smelly (odorous) gases from the phosphoric acid units a major non-conformity when checked against Tunisia's 2010 air decree and the bank's pollution-prevention safeguards.",
+   "intro": "The audit checks air pollution at the Gabès site against Tunisia's 2010 air decree (Décret n° 2010-2519 of 28 September 2010) and two of the bank's safeguards (SO1 and SO3). It records pollution from smelly gases (phosphoric acid units) and rates it a major non-conformity.",
+   "kind": "stated",
+   "value": null,
+   "unit": null,
+   "pollutant": null,
+   "subjects": [
+    "breathing-air"
+   ],
+   "keywords": [
+    "air emissions",
+    "odorous gases (phosphoric acid units)"
+   ],
+   "locator": "Summary table, p. 7",
+   "featured": false,
+   "evidence_level": "audit-rating",
+   "headline_original": "Air: odorous gases from the phosphoric acid units rated a major non-conformity",
+   "summary_original": "The audit rates odorous gases (phosphoric acid units) as a major non-conformity against the 2010 decree on air and the bank's pollution-prevention safeguards.",
+   "intro_original": "The audit checks air emissions at the Gabès site against Décret n° 2010-2519 of 28 September 2010 and the bank's safeguards SO1 and SO3. It records pollution from odorous gases (phosphoric acid units) and rates it a major non-conformity. The row states the finding but gives no measured value."
+  },
+  {
+   "id": "f-audit-08",
+   "source_id": "src-2025-gct-audit",
+   "headline": "Air: nitrous oxide (N₂O) is a major non-conformity",
+   "summary": "The audit rates nitrous oxide (N₂O) a major non-conformity when checked against Tunisia's 2010 air decree and the bank's pollution-prevention safeguards.",
+   "intro": "The audit checks air pollution at the Gabès site against Tunisia's 2010 air decree (Décret n° 2010-2519 of 28 September 2010) and two of the bank's safeguards (SO1 and SO3). It records pollution from nitrous oxide (N₂O) and rates it a major non-conformity.",
+   "kind": "stated",
+   "value": null,
+   "unit": null,
+   "pollutant": null,
+   "subjects": [
+    "breathing-air"
+   ],
+   "keywords": [
+    "air emissions",
+    "nitrous oxide (N₂O)"
+   ],
+   "locator": "Summary table, p. 8",
+   "featured": false,
+   "evidence_level": "audit-rating",
+   "headline_original": "Air: nitrous oxide (N₂O) rated a major non-conformity",
+   "summary_original": "The audit rates nitrous oxide (N₂O) as a major non-conformity against the 2010 decree on air and the bank's pollution-prevention safeguards.",
+   "intro_original": "The audit checks air emissions at the Gabès site against Décret n° 2010-2519 of 28 September 2010 and the bank's safeguards SO1 and SO3. It records pollution from nitrous oxide (N₂O) and rates it a major non-conformity. The row states the finding but gives no measured value."
+  },
+  {
+   "id": "f-audit-09",
+   "source_id": "src-2025-gct-audit",
+   "headline": "Air: CO2 and other greenhouse gases are a major non-conformity",
+   "summary": "The audit rates CO2 and other greenhouse gases a major non-conformity when checked against Tunisia's 2010 air decree and the bank's pollution-prevention safeguards.",
+   "intro": "The audit checks air pollution at the Gabès site against Tunisia's 2010 air decree (Décret n° 2010-2519 of 28 September 2010) and two of the bank's safeguards (SO1 and SO3). It records pollution from CO2 and other greenhouse gases and rates it a major non-conformity.",
+   "kind": "stated",
+   "value": null,
+   "unit": null,
+   "pollutant": null,
+   "subjects": [
+    "breathing-air"
+   ],
+   "keywords": [
+    "air emissions",
+    "CO2 and greenhouse gases"
+   ],
+   "locator": "Summary table, p. 8",
+   "featured": false,
+   "evidence_level": "audit-rating",
+   "headline_original": "Air: CO2 and greenhouse gas emissions rated a major non-conformity",
+   "summary_original": "The audit rates CO2 and greenhouse gases as a major non-conformity against the 2010 decree on air and the bank's pollution-prevention safeguards.",
+   "intro_original": "The audit checks air emissions at the Gabès site against Décret n° 2010-2519 of 28 September 2010 and the bank's safeguards SO1 and SO3. It records pollution from CO2 and greenhouse gases and rates it a major non-conformity. The row states the finding but gives no measured value."
+  },
+  {
+   "id": "f-audit-10",
+   "source_id": "src-2025-gct-audit",
+   "headline": "Workers: several zones are noisier than the audit's threshold",
+   "summary": "The audit rates workers' exposure to noise a major non-conformity because several zones are above the threshold it cites.",
+   "intro": "The company I2E measured noise at 12 points on the Gabès site on 06/10/2023. The audit says several zones are above the exposure limits and rates this a major non-conformity. Table 22 gives 90 at the central boiler room and 86.6 at the distiller.",
+   "kind": "stated",
+   "value": null,
+   "unit": null,
+   "pollutant": null,
+   "subjects": [
+    "workers-safety"
+   ],
+   "keywords": [
+    "noise",
+    "workers",
+    "hearing"
+   ],
+   "locator": "Summary table, p. 11",
+   "featured": false,
+   "evidence_level": "audit-rating",
+   "headline_original": "Workers' noise exposure: several zones exceed the threshold cited by the audit",
+   "summary_original": "The audit rates workers' noise exposure as a major non-conformity because several zones are above the threshold it cites.",
+   "intro_original": "I2E measured noise at 12 points on the Gabès site on 06/10/2023. The audit says several zones exceed the exposure thresholds and rates this a major non-conformity. Table 22 gives 90 at the central boiler room and 86,6 at the distiller."
+  },
+  {
+   "id": "f-audit-11",
+   "source_id": "src-2025-gct-audit",
+   "headline": "Safety: serious defects in how installations are designed and maintained",
+   "summary": "The audit rates important safety defects in the design and maintenance of the installations a major non-conformity.",
+   "intro": "Under the bank's health and safety safeguards, the audit checks how safely the installations are designed and maintained. It records important defects and rates this a major non-conformity.",
+   "kind": "stated",
+   "value": null,
+   "unit": null,
+   "pollutant": null,
+   "subjects": [
+    "workers-safety"
+   ],
+   "keywords": [
+    "installation safety",
+    "design",
+    "maintenance"
+   ],
+   "locator": "Summary table, p. 12",
+   "featured": false,
+   "evidence_level": "audit-rating",
+   "headline_original": "Installation safety: important design and maintenance defects",
+   "summary_original": "The audit rates important safety defects in the design and maintenance of installations as a major non-conformity.",
+   "intro_original": "Under the bank's health and safety safeguards, the audit reviews how safely the installations are designed and maintained. It records important defects and rates this a major non-conformity."
+  },
+  {
+   "id": "f-audit-12",
+   "source_id": "src-2025-gct-audit",
+   "headline": "Residents report gas, dust and sulphur smells, and no plan to deal with them",
+   "summary": "The audit rates it a major non-conformity that there is no assessment with residents, and no social-impact plan, for the nuisances they report.",
+   "intro": "The audit records that residents report recurring nuisances from gas, dust and sulphur smells. It found that no assessment involving residents and no specific plan for managing the social impacts were put in place, and rates this a major non-conformity.",
+   "kind": "stated",
+   "value": null,
+   "unit": null,
+   "pollutant": null,
+   "subjects": [
+    "breathing-air"
+   ],
+   "keywords": [
+    "residents",
+    "nuisance",
+    "odours",
+    "dust"
+   ],
+   "locator": "Summary table, p. 12",
+   "featured": false,
+   "evidence_level": "reported-by-residents",
+   "headline_original": "Residents: recurring gas, dust and sulphur-smell nuisance, with no assessment or management plan",
+   "summary_original": "The audit rates the lack of a participatory assessment or social-impact plan for residents' reported nuisances as a major non-conformity.",
+   "intro_original": "The audit records that residents report recurring nuisances from gas, dust and sulphur odours. It finds that no participatory assessment or specific plan for managing the social impacts was put in place, and rates this a major non-conformity."
+  },
+  {
+   "id": "f-audit-13",
+   "source_id": "src-2025-gct-audit",
+   "headline": "Residents report breathing problems linked to the site's emissions",
+   "summary": "The audit records residents' reports of choking (asphyxia) and breathing problems, and rates the health risk to people living nearby a major non-conformity.",
+   "intro": "The audit records that residents report cases of choking (asphyxia), irritation of the airways and long-lasting discomfort linked to the site's air emissions. It rates the health risk to nearby populations a major non-conformity and recommends a health impact study.",
+   "kind": "summary",
+   "value": null,
+   "unit": null,
+   "pollutant": null,
+   "subjects": [
+    "breathing-air"
+   ],
+   "keywords": [
+    "health",
+    "asphyxia",
+    "respiratory",
+    "residents"
+   ],
+   "locator": "Summary table, p. 12",
+   "featured": true,
+   "evidence_level": "reported-by-residents",
+   "headline_original": "Residents report asphyxia, respiratory irritation and chronic discomfort linked to the site's emissions",
+   "summary_original": "The audit records residents' reports of asphyxia and respiratory problems and rates the health risk to nearby populations as a major non-conformity.",
+   "intro_original": "The audit records that residents report cases of asphyxia, respiratory irritation and chronic discomfort in connection with the site's air emissions. It rates the health risk to nearby populations a major non-conformity. It recommends a health impact study."
+  },
+  {
+   "id": "f-audit-14",
+   "source_id": "src-2025-gct-audit",
+   "headline": "Residents say they are not informed or consulted, and there is no formal way to be",
+   "summary": "The audit found no formal way to inform and consult residents and rates this a major non-conformity.",
+   "intro": "Residents say they are not sufficiently informed or consulted. The audit found no formal way to communicate with the community or let it take part, and rates this a major non-conformity under the bank's safeguard on involving the people affected.",
+   "kind": "stated",
+   "value": null,
+   "unit": null,
+   "pollutant": null,
+   "subjects": [
+    "oversight"
+   ],
+   "keywords": [
+    "consultation",
+    "community",
+    "information"
+   ],
+   "locator": "Summary table, p. 13",
+   "featured": false,
+   "evidence_level": "audit-rating",
+   "headline_original": "Residents say they are not informed or consulted; no formal mechanism exists",
+   "summary_original": "The audit rates the lack of any formal mechanism for informing and consulting residents as a major non-conformity.",
+   "intro_original": "Residents say they are not sufficiently informed or consulted. The audit found no formal communication or community participation mechanism and rates this a major non-conformity under the bank's stakeholder-engagement safeguard."
+  },
+  {
+   "id": "f-audit-15",
+   "source_id": "src-2025-gct-audit",
+   "headline": "No proof of permission to operate was shown",
+   "summary": "The audit rates it a major non-conformity that no information on the installations' operating permits was provided.",
+   "intro": "Under the law on classified establishments (industrial sites that need a permit), the installations need permission to operate. The audit says no document proving this permission was shown, and rates this a major non-conformity.",
+   "kind": "stated",
+   "value": null,
+   "unit": null,
+   "pollutant": null,
+   "subjects": [
+    "oversight"
+   ],
+   "keywords": [
+    "authorisation",
+    "classified establishments",
+    "permits"
+   ],
+   "locator": "Summary table, p. 13",
+   "featured": false,
+   "evidence_level": "audit-rating",
+   "headline_original": "No proof of operating authorisations was presented",
+   "summary_original": "The audit rates the absence of information on operating authorisations for the installations as a major non-conformity.",
+   "intro_original": "Under the law on classified establishments, installations need operating authorisations. The audit says no document proving authorisation to operate was presented, and rates this a major non-conformity."
+  },
+  {
+   "id": "f-audit-16",
+   "source_id": "src-2025-gct-audit",
+   "headline": "No hazard study for ammonium nitrate",
+   "summary": "The audit rates the lack of a hazard study specific to ammonium nitrate a major non-conformity.",
+   "intro": "The audit checks the site against the Tunisian Labour Code. It found no hazard study specific to ammonium nitrate and rates this a major non-conformity.",
+   "kind": "stated",
+   "value": null,
+   "unit": null,
+   "pollutant": null,
+   "subjects": [
+    "oversight",
+    "workers-safety"
+   ],
+   "keywords": [
+    "hazard study",
+    "ammonium nitrate",
+    "labour code"
+   ],
+   "locator": "Summary table, p. 13",
+   "featured": false,
+   "evidence_level": "audit-rating",
+   "headline_original": "No hazard study for ammonium nitrate",
+   "summary_original": "The audit rates the lack of a specific hazard study for ammonium nitrate as a major non-conformity.",
+   "intro_original": "The audit checks the site against the Tunisian Labour Code. It finds no hazard study specific to ammonium nitrate and rates this a major non-conformity."
+  },
+  {
+   "id": "f-audit-17",
+   "source_id": "src-2025-gct-audit",
+   "headline": "No air-pollution measurements since March 2010 were found",
+   "summary": "The audit found no measurement of air emissions newer than March 2010. It rates the lack of continuous monitoring a major non-conformity.",
+   "intro": "The audit says its information on air pollution rests on a single study from 2010, with no updated continuous monitoring. It rates this a major non-conformity because it affects both public health and air pollution. Without monitoring, the audit says risks cannot be managed in advance.",
+   "kind": "stated",
+   "value": null,
+   "unit": null,
+   "pollutant": null,
+   "subjects": [
+    "oversight",
+    "breathing-air"
+   ],
+   "keywords": [
+    "monitoring",
+    "air emissions",
+    "2010"
+   ],
+   "locator": "Detailed assessment, p. 80",
+   "featured": true,
+   "evidence_level": "audit-rating",
+   "headline_original": "Air emissions: no measurement campaign since March 2010 identified",
+   "summary_original": "The audit says no air-emission measurement campaign more recent than March 2010 was identified and rates the lack of continuous monitoring a major non-conformity.",
+   "intro_original": "The audit says its air-monitoring basis is a single study from 2010 with no updated continuous monitoring. It rates this a major non-conformity because it touches both public health and air pollution. Without monitoring, the audit says risks cannot be managed proactively."
+  },
+  {
+   "id": "f-2026-b",
+   "source_id": "src-2026-bentogypsum",
+   "headline": "Risk estimated as significant for people living near the stockpiles, especially children",
+   "summary": "A screening-level health risk assessment (a first, broad check) estimates significant cancer and non-cancer risks for people living near the bentogypsum stockpiles. Children are the most vulnerable group.",
+   "intro": "A screening-level health risk assessment (a first, broad check) estimates significant cancer and non-cancer risks for people living near the bentogypsum stockpiles. Children are the most vulnerable group.",
+   "kind": "stated",
+   "value": null,
+   "unit": null,
+   "pollutant": null,
+   "subjects": [
+    "cancer-risk",
+    "children"
+   ],
+   "keywords": [],
+   "locator": "Abstract",
+   "featured": true,
+   "evidence_level": "risk-estimate",
+   "headline_original": "Significant cancer and non-cancer risks estimated for people living near the stockpiles; children most vulnerable",
+   "summary_original": "A screening-level health risk assessment indicates significant non-carcinogenic and carcinogenic risks for the population living near the bentogypsum stockpiles, with children the most vulnerable group."
+  },
+  {
+   "id": "f-2026-c",
+   "source_id": "src-2026-bentogypsum",
+   "headline": "Swallowing is the main way people are exposed, and cadmium adds the most risk",
+   "summary": "The assessment finds that swallowing (oral ingestion) is the main way people are exposed, and that cadmium adds the most to both the cancer and non-cancer risks.",
+   "intro": "The assessment finds that swallowing (oral ingestion) is the main way people are exposed, and that cadmium adds the most to both the cancer and non-cancer risks.",
+   "kind": "stated",
+   "value": null,
+   "unit": null,
+   "pollutant": null,
+   "subjects": [
+    "cancer-risk",
+    "children"
+   ],
+   "keywords": [],
+   "locator": "Abstract",
+   "featured": false,
+   "evidence_level": "risk-estimate",
+   "headline_original": "Oral ingestion is the main exposure route and cadmium the main contributor to the risk",
+   "summary_original": "Oral ingestion is the dominant exposure pathway in the assessment, and cadmium is the main contributor to both cancer and non-cancer risks."
+  },
+  {
+   "id": "f-assabah-b",
+   "source_id": "src-2016-assabah",
+   "headline": "Press article: sulphur gases said to harm people with asthma, even at low levels",
+   "summary": "The article says sulphur dioxide and similar gases seriously damage the lungs and hurt people with asthma or chest allergies, even at low levels.",
+   "intro": "The article says sulphur dioxide and similar gases seriously damage the lungs and hurt people with asthma or chest allergies, even at low levels.",
+   "kind": "summary",
+   "value": null,
+   "unit": null,
+   "pollutant": null,
+   "subjects": [
+    "breathing-air"
+   ],
+   "keywords": [],
+   "locator": "Article text, air pollution section",
+   "featured": false,
+   "evidence_level": "press-claim",
+   "headline_original": "Press article: sulphur gases said to harm people with asthma and chest allergy, even at low levels",
+   "summary_original": "The article text says sulphur dioxide and similar gases cause serious lung damage, and hurt people with chest allergy and asthma even at low levels. The passage gives no measurement, and the text does not clearly attribute this sentence to a named person."
+  },
+  {
+   "id": "f-assabah-c",
+   "source_id": "src-2016-assabah",
+   "headline": "Press article: fish and cadmium linked to cancer and infertility",
+   "summary": "The sub-headline says fish with the 'taste' of phosphogypsum cause cancer. The text says an association president stated that cadmium causes kidney cancer and that leftover catalyst residues taken up through fish cause infertility.",
+   "intro": "The sub-headline says fish with the 'taste' of phosphogypsum cause cancer. The text says an association president stated that cadmium causes kidney cancer and that leftover catalyst residues taken up through fish cause infertility.",
+   "kind": "summary",
+   "value": null,
+   "unit": null,
+   "pollutant": null,
+   "subjects": [
+    "cancer-risk",
+    "marine-life"
+   ],
+   "keywords": [],
+   "locator": "Sub-headline and opening section",
+   "featured": false,
+   "evidence_level": "press-claim",
+   "headline_original": "Press article: fish and cadmium linked to cancer and infertility",
+   "summary_original": "The sub-headline says fish with the 'taste' of phosphogypsum cause cancer. The text attributes to an association president that cadmium causes kidney cancer and that catalyst residues taken up through fish cause infertility."
+  }
+ ],
+ "key_results": [
+  {
+   "id": "kr-bentogypsum",
+   "headline": "Waste stockpiled in the open is estimated to pose cancer and non-cancer risks, with children the most vulnerable.",
+   "figure": null,
+   "unit": null,
+   "plain": "A newly studied waste called bentogypsum contains high levels of cadmium, arsenic, lead, chromium and uranium. A first, broad health-risk check estimates significant cancer and non-cancer risks for people living nearby, mainly through swallowing it, with cadmium adding the most.",
+   "not_shown": "These are risk estimates, not diagnosed cases. The authors say no site-specific medical or epidemiological data link the waste to observed health outcomes.",
+   "support": [
+    "f-2026-b",
+    "f-2026-c",
+    "f-2026-a"
+   ],
+   "subjects": [
+    "cancer-risk",
+    "children",
+    "waste"
+   ],
+   "evidence_level": "risk-estimate",
+   "plain_original": "A newly studied waste called bentogypsum contains elevated cadmium, arsenic, lead, chromium and uranium. A screening-level assessment estimates significant cancer and non-cancer risks for people living nearby, mainly through oral ingestion, with cadmium the largest contributor."
+  },
+  {
+   "id": "kr-breathing",
+   "headline": "Residents report asphyxia, respiratory irritation and chronic discomfort linked to the plants' emissions.",
+   "figure": null,
+   "unit": null,
+   "plain": "The 2025 audit records these reports from residents and rates the health risk to people nearby as a major non-conformity. It recommends a health impact study. A press article adds statements about asthma.",
+   "not_shown": "These are reports, not medical findings. The audit gives no medical data and says the effects, if confirmed, would be a direct harm to public health.",
+   "support": [
+    "f-audit-13",
+    "f-audit-12",
+    "f-assabah-b"
+   ],
+   "subjects": [
+    "breathing-air"
+   ],
+   "evidence_level": "reported-by-residents",
+   "plain_original": "The 2025 audit records these reports from residents and rates the health risk to nearby populations as a major non-conformity. It recommends a health impact study. A press article adds statements about asthma."
+  },
+  {
+   "id": "kr-air-audit",
+   "headline": "The audit rates seven kinds of air emission as major non-conformities.",
+   "figure": "7",
+   "unit": "air emissions rated major",
+   "plain": "They are ammonia from the DAP units, nitrogen oxides, ammonia and ammonium nitrate droplets from the prilling towers, sulphur oxides, smelly gases, N₂O, and CO₂ with other greenhouse gases. The audit also says it found no air-pollution measurement newer than March 2010.",
+   "not_shown": "The summary rows give no measured values. The audit's own emission tables record the exceedances it lists only during start-up. A rating in an audit is not a court ruling.",
+   "support": [
+    "f-audit-03",
+    "f-audit-04",
+    "f-audit-05",
+    "f-audit-06",
+    "f-audit-07",
+    "f-audit-08",
+    "f-audit-09",
+    "f-audit-17"
+   ],
+   "subjects": [
+    "breathing-air"
+   ],
+   "evidence_level": "audit-rating",
+   "plain_original": "They are ammonia from the DAP units, nitrogen oxides, ammonia and ammonium nitrate droplets from the prilling towers, sulphur oxides, odorous gases, N₂O, and CO₂ with other greenhouse gases. The audit also says no air-emission measurement newer than March 2010 was identified."
+  },
+  {
+   "id": "kr-uranium",
+   "headline": "Uranium in beach sand reaches 38 mg/kg, highest near the fertilizer factories.",
+   "figure": "38",
+   "unit": "mg/kg uranium (highest value)",
+   "plain": "Uranium ranged from 0.71 to 38.00 mg/kg and thorium from 1.00 to 10.60 mg/kg across the beaches sampled in the central Gulf. Another study found every calculated hazard index for the plants' wastes was above recommended limits, while plastic litter on the coast stayed below limits.",
+   "not_shown": "These are radioactivity measurements and calculated indices, not records of illness.",
+   "support": [
+    "f-2025-a",
+    "f-2019c-a",
+    "f-2023a-a",
+    "f-2019a-a"
+   ],
+   "subjects": [
+    "radioactivity",
+    "cancer-risk"
+   ],
+   "evidence_level": "measured",
+   "plain_original": "Uranium ranged from 0.71 to 38.00 mg/kg and thorium from 1.00 to 10.60 mg/kg across the beaches sampled in the central Gulf. Another study found all calculated hazard indices for the plants' wastes above recommended limits, while plastic debris on the coast stayed below limits."
+  },
+  {
+   "id": "kr-waste-volume",
+   "headline": "More than 500 million tonnes of phosphogypsum have been discharged since the 1970s.",
+   "figure": "500+",
+   "unit": "million tonnes of wet phosphogypsum",
+   "plain": "Phosphogypsum is a waste from making phosphate fertiliser. A 2023 study gives this total over the years. Another study estimates how much pollution flows to the sea each year, from 0.05 tonnes (rhenium) to 87,249.60 tonnes (fluoride).",
+   "not_shown": "The total is the authors' estimate over decades, not a yearly rate.",
+   "support": [
+    "f-2023b-a",
+    "f-2018b-a",
+    "f-2019b-a"
+   ],
+   "subjects": [
+    "waste",
+    "sea-sediment"
+   ],
+   "evidence_level": "estimate",
+   "plain_original": "Phosphogypsum is a waste of phosphate fertilizer production. A 2023 study gives this cumulative total. Another study estimates yearly flows of contaminants to the sea, from 0.05 tonnes (rhenium) to 87,249.60 tonnes (fluoride)."
+  },
+  {
+   "id": "kr-seagrass",
+   "headline": "About 90% of the original seagrass area has been lost.",
+   "figure": "90%",
+   "unit": "of the original seagrass area lost",
+   "plain": "Seagrass meadows supported coastal fishing and stored carbon. One study links the loss to the phosphogypsum discharged since the 1970s. Other studies describe a lifeless area of seabed between the two ports and shrinking meadows.",
+   "not_shown": "The 90% figure comes from one study, which attributes the loss to the discharges.",
+   "support": [
+    "f-2023b-a",
+    "f-2019b-a",
+    "f-2017-a"
+   ],
+   "subjects": [
+    "marine-life"
+   ],
+   "evidence_level": "estimate",
+   "plain_original": "Seagrass meadows supported coastal fishing and stored carbon. One study links the loss to the phosphogypsum discharged since the 1970s. Other studies describe a lifeless seabed zone between the two ports and shrinking meadows."
+  },
+  {
+   "id": "kr-fishing",
+   "headline": "Fishing losses are estimated at more than 750 million euros between 1990 and 2014.",
+   "figure": "750+",
+   "unit": "million euros, cumulated 1990–2014",
+   "plain": "One study links falling coastal catches to the loss of seagrass and puts the 2014 fishing loss at about 60 million euros. A second study puts the 2014 loss from seagrass services at 105 million euros, about 115% of the fertiliser factories' added value that year.",
+   "not_shown": "These are the authors' economic estimates. Catch decline was correlated with seagrass decline.",
+   "support": [
+    "f-2020-a",
+    "f-2023b-b"
+   ],
+   "subjects": [
+    "marine-life"
+   ],
+   "evidence_level": "estimate",
+   "plain_original": "One study links falling coastal catches to the loss of seagrass and puts the 2014 fishing loss at about 60 million euros. A second study puts the 2014 loss from seagrass services at 105 million euros, about 115% of the fertilizer factories' added value that year."
+  },
+  {
+   "id": "kr-foam",
+   "headline": "The foam that forms when phosphogypsum meets seawater carries metals and radioactive elements.",
+   "figure": null,
+   "unit": null,
+   "plain": "Studies describe it as man-made and short-lived, held together by organic compounds. It is heavily loaded with pollutants and is described as the main thing that collects, carries and spreads them.",
+   "not_shown": "These studies describe the foam's composition and behaviour. Health effects are not their subject.",
+   "support": [
+    "f-2019a-a",
+    "f-2024-a"
+   ],
+   "subjects": [
+    "waste",
+    "radioactivity"
+   ],
+   "evidence_level": "measured",
+   "plain_original": "Studies describe it as an artificial, short-lived foam stabilised by organic compounds. It is heavily loaded with contaminants and is described as the main agent that accumulates, carries and spreads them."
+  },
+  {
+   "id": "kr-sea-metals",
+   "headline": "Seawater and seabed next to the industrial complex carry the highest contaminant levels.",
+   "figure": null,
+   "unit": null,
+   "plain": "Seawater near the complex was rated 'strongly to seriously affected' on the authors' pollution index. Seabed mud holds cadmium and zinc that appear to come mainly from phosphogypsum, with the highest risk to sea life between the two harbours.",
+   "not_shown": "The pollution index is the authors' own scoring method. Samples come from the coast around the complex.",
+   "support": [
+    "f-2018a-a",
+    "f-2015-a",
+    "f-2015-b",
+    "f-2023c-a"
+   ],
+   "subjects": [
+    "sea-sediment"
+   ],
+   "evidence_level": "measured",
+   "plain_original": "Seawater near the complex was rated 'strongly to seriously affected' on the authors' pollution index. Seabed sediments hold cadmium and zinc that appear to come mainly from phosphogypsum, with the highest ecological risk between the two harbours."
+  },
+  {
+   "id": "kr-rare-earths",
+   "headline": "Up to 1,523.67 tonnes of rare earth elements reach the sea each year.",
+   "figure": "1,523.67",
+   "unit": "tonnes of rare earths a year (estimate)",
+   "plain": "These elements are in the phosphate waste, most of all in the foam. The authors value the loss at about 58 million US dollars a year, treating it as a wasted resource.",
+   "not_shown": "Both figures are the authors' estimates. The value is a resource loss, not a measure of harm.",
+   "support": [
+    "f-2021-a"
+   ],
+   "subjects": [
+    "waste"
+   ],
+   "evidence_level": "estimate",
+   "plain_original": "These elements are present in the phosphate waste, with the foam the most enriched. The authors value the loss at about 58 million US dollars a year, treating it as a wasted resource."
+  },
+  {
+   "id": "kr-workers",
+   "headline": "Some work zones exceed the noise threshold the audit cites, and there is no hazard study for ammonium nitrate.",
+   "figure": null,
+   "unit": null,
+   "plain": "The audit also records important defects in how installations are designed and maintained. All three items are rated major non-conformities.",
+   "not_shown": "Noise values are point measurements while the threshold is a daily average, so they are not directly comparable.",
+   "support": [
+    "f-audit-10",
+    "f-audit-11",
+    "f-audit-16"
+   ],
+   "subjects": [
+    "workers-safety",
+    "oversight"
+   ],
+   "evidence_level": "audit-rating",
+   "plain_original": "The audit also records important defects in the design and maintenance of installations. All three items are rated major non-conformities."
+  },
+  {
+   "id": "kr-oversight",
+   "headline": "The audit found no proof of operating authorisations and no formal way for residents to be consulted.",
+   "figure": null,
+   "unit": null,
+   "plain": "Both are rated major non-conformities.",
+   "not_shown": "Not showing proof is not proof that none exists. A rating in an audit is not a court ruling.",
+   "support": [
+    "f-audit-15",
+    "f-audit-14"
+   ],
+   "subjects": [
+    "oversight"
+   ],
+   "evidence_level": "audit-rating"
+  }
+ ]
+}

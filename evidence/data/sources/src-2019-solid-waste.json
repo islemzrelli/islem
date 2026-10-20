@@ -1,0 +1,49 @@
+{
+ "id": "src-2019-solid-waste",
+ "short_title": "Decades of solid waste on the coast (2019)",
+ "title": "Decadal effects of solid industrial wastes on the coastal environment: Gulf of Gabes (Tunisia, Southern Mediterranean Sea) as an example",
+ "authors": "R. El Zrelli et al.",
+ "institution": "Estuarine, Coastal and Shelf Science (Elsevier)",
+ "type": "scientific-study",
+ "subjects": [
+  "waste",
+  "marine-life"
+ ],
+ "published": "2019",
+ "document_date": null,
+ "year": 2019,
+ "report_number": null,
+ "keywords": [
+  "solid waste",
+  "coast",
+  "Posidonia",
+  "shoreline"
+ ],
+ "summary": "Identified the kinds of solid waste reaching the shore and mapped how far they travel (about 10 km south of the discharge point). Over decades they are linked to the local loss of seagrass, a lifeless area of seabed between the two ports, and a changed shoreline.",
+ "url": "https://doi.org/10.1016/j.ecss.2019.04.021",
+ "pdf": null,
+ "language": "en",
+ "peer_reviewed": true,
+ "doi": "10.1016/j.ecss.2019.04.021",
+ "status": "draft",
+ "findings": [
+  {
+   "id": "f-2019b-a",
+   "source_id": "src-2019-solid-waste",
+   "headline": "Decades of dumping are linked to a lifeless patch of seabed",
+   "summary": "Decades of solid waste are linked to the local disappearance of seagrass, a lifeless area of seabed between the Gabès and Ghannouche ports, and a shoreline that has moved outwards.",
+   "kind": "stated",
+   "value": null,
+   "unit": null,
+   "pollutant": null,
+   "subjects": null,
+   "keywords": [],
+   "locator": "Abstract",
+   "featured": false,
+   "status": "draft",
+   "headline_original": "Waste dumping is linked to a lifeless seabed zone",
+   "summary_original": "Decades of solid effluents are linked to local disappearance of seagrass, a lifeless seabed zone between the Gabès and Ghannouche ports, and shoreline advancement."
+  }
+ ],
+ "summary_original": "Identified the types of solid waste reaching the shore and mapped how far they travel (about 10 km south of the discharge point). Over decades they are linked to local loss of seagrass, a lifeless seabed zone between the two ports, and a changed shoreline."
+}

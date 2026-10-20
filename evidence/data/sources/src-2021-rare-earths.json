@@ -1,0 +1,50 @@
+{
+ "id": "src-2021-rare-earths",
+ "short_title": "Rare earth elements in the waste (2021)",
+ "title": "Rare earth elements characterization associated to the phosphate fertilizer plants of Gabes (Tunisia, Central Mediterranean Sea): Geochemical properties and behavior, related economic losses, and potential hazards",
+ "authors": "R. El Zrelli et al.",
+ "institution": "Science of the Total Environment (Elsevier)",
+ "type": "scientific-study",
+ "subjects": [
+  "waste",
+  "marine-life"
+ ],
+ "published": "2021",
+ "document_date": null,
+ "year": 2021,
+ "report_number": null,
+ "keywords": [
+  "rare earth elements",
+  "phosphogypsum foam",
+  "economic loss",
+  "mining potential"
+ ],
+ "summary": "Measured 16 rare earth elements in phosphate rock, phosphogypsum and foam. The foam had the most. Estimates that up to 1,523.67 tonnes of these elements reach the sea each year, a wasted resource worth about 58 million US dollars a year.",
+ "url": "https://doi.org/10.1016/j.scitotenv.2021.148268",
+ "pdf": null,
+ "language": "en",
+ "peer_reviewed": true,
+ "doi": "10.1016/j.scitotenv.2021.148268",
+ "status": "draft",
+ "findings": [
+  {
+   "id": "f-2021-a",
+   "source_id": "src-2021-rare-earths",
+   "headline": "Up to 1,523.67 tonnes of rare earth metals reach the sea each year",
+   "summary": "This is the estimated yearly amount of rare earth elements going from the fertiliser factories into the sea. The authors value this loss at about 58 million US dollars a year.",
+   "kind": "stated",
+   "value": "1523.67",
+   "unit": "t per year",
+   "pollutant": null,
+   "subjects": null,
+   "keywords": [],
+   "locator": "Abstract",
+   "featured": false,
+   "evidence_level": "estimate",
+   "status": "draft",
+   "headline_original": "Up to 1,523.67 tonnes of rare earths reach the sea each year",
+   "summary_original": "Estimated annual flow of rare earth elements from the fertilizer factories to the marine environment; related economic loss estimated at about 58 million US dollars per year."
+  }
+ ],
+ "summary_original": "Measured 16 rare earth elements in phosphate rock, phosphogypsum and foam. Foam was the most enriched. Estimates up to 1,523.67 tonnes of these elements reach the sea each year, a resource loss valued at about 58 million US dollars per year."
+}
